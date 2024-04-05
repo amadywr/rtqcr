@@ -3,7 +3,8 @@ import styles from './Homepage.module.css';
 import { NavLink } from 'react-router-dom';
 import Services from '../components/Services';
 import ServeArea from '../components/ServeArea';
-import RecontProjects from '../components/RecontProjects';
+import RecentProjects from '../components/RecentProjects';
+import GoogleReview from '../components/GoogleReview';
 
 function Homepage() {
   return (
@@ -23,7 +24,8 @@ function Homepage() {
 
       <Services />
       <ServeArea />
-      <RecontProjects />
+      <RecentProjects />
+      <GoogleReview />
     </div>
   );
 }

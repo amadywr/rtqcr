@@ -1,17 +1,28 @@
 .recent_projects_section {
-  margin: 20rem auto 0 auto;
-  width: 70vw;
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent_projects_section button {
+  outline: none;
+  border: none;
+}
+
+.button_div {
+  margin-top: 10rem;
 }
 
 .recent_projects_section h1 {
-  text-align: center;
   font-size: 3rem;
 }
 
 .projects_div {
   margin-top: 5rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   width: 100%;
   gap: 5rem;
 }
@@ -24,6 +35,9 @@
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+  box-shadow: 1px 3px 52px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 1px 3px 52px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 1px 3px 52px 0px rgba(0, 0, 0, 0.14);
 }
 
 .project_div div {
@@ -41,10 +55,39 @@
 .project_div img {
   width: 100%;
   border-radius: 5px;
+  box-shadow: 1px 3px 52px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 1px 3px 52px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 1px 3px 52px 0px rgba(0, 0, 0, 0.14);
+}
+
+.project_before_div {
   position: relative;
 }
 
-.project1_before_div::after {
-  content: 'aa';
+.project_before_div::after {
+  content: 'Before';
   position: absolute;
+  background-color: var(--accent-colour);
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: #fff;
+  bottom: -1.2rem;
+  left: 5rem;
+}
+
+.project_after_div {
+  position: relative;
+}
+
+.project_after_div::after {
+  content: 'After';
+  position: absolute;
+  background-color: var(--accent-colour);
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: #fff;
+  bottom: -1.2rem;
+  right: 5rem;
 }
