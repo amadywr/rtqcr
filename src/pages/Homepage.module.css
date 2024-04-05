@@ -1,0 +1,13 @@
+.home {
+  background-color: aqua;
+  height: 200vh;
+}
+
+.hero_wrapper {
+  background-image: url('../assets/hero.jpg');
+  height: 650px;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
