@@ -5,6 +5,9 @@ import Services from '../components/Services';
 import ServeArea from '../components/ServeArea';
 import RecentProjects from '../components/RecentProjects';
 import GoogleReview from '../components/GoogleReview';
+import FAQs from '../components/FAQs';
+import homepageFAQs from '../assets/homepageFAQs';
+import Footer from '../components/Footer';
 
 function Homepage() {
   return (
@@ -26,6 +29,8 @@ function Homepage() {
       <ServeArea />
       <RecentProjects />
       <GoogleReview />
+      <FAQs faqs={homepageFAQs} />
+      <Footer />
     </div>
   );
 }

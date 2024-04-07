@@ -1,0 +1,16 @@
+.faqs_section {
+  margin-top: 20rem;
+}
+
+.faqs_section h1 {
+  margin-top: 20rem;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.faqs_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

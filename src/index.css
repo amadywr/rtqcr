@@ -13,9 +13,9 @@ html {
 :root {
   --background-colour: #f8f9fa;
   --accent-colour: #fc3434;
-  --accent-hover-colour: #d12222;
+  --accent-hover-colour: #5e0000;
   --secondary-colour: #f1f3f5;
-  --secondary-dark: #e9ecef;
+  --secondary-dark-colour: #e9ecef;
   --text-colour: #151515;
 }
 
