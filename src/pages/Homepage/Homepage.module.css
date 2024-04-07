@@ -9,7 +9,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0)
     ),
-    url('../assets/hero.jpg');
+    url('../../assets/hero.jpg');
   height: 65vh;
   background-position: center;
   background-repeat: no-repeat;

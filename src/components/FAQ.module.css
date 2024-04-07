@@ -5,10 +5,14 @@
   align-items: center;
   padding: 2rem 3rem;
   border-radius: 5px;
+  transition: 0.5s;
+  outline: none;
 }
 
 .faq_question_div:hover {
   cursor: pointer;
+  transform: scale(0.98);
+  background-color: var(--secondary-colour);
 }
 
 .faq_question_div p {
@@ -21,7 +25,7 @@
 }
 
 .faq_answer_div {
-  padding: 2rem 3rem;
+  padding: 2rem 3rem 4rem 3rem;
   display: none;
 }
 

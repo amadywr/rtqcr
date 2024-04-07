@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Homepage.module.css';
 import { NavLink } from 'react-router-dom';
-import Services from '../components/Services';
-import ServeArea from '../components/ServeArea';
-import RecentProjects from '../components/RecentProjects';
-import GoogleReview from '../components/GoogleReview';
-import FAQs from '../components/FAQs';
-import homepageFAQs from '../assets/homepageFAQs';
-import Footer from '../components/Footer';
+import Services from '../../components/Services';
+import ServeArea from '../../components/ServeArea';
+import RecentProjects from '../../components/RecentProjects';
+import GoogleReview from '../../components/GoogleReview';
+import FAQs from '../../components/FAQs';
+import homepageFAQs from '../../assets/homepageFAQs';
+import Footer from '../../components/Footer';
 
 function Homepage() {
   return (
@@ -19,9 +19,9 @@ function Homepage() {
             Concrete Resurfacing and Epoxy Flooring with{' '}
             <span>RTQ Concrete Resurfacing</span>
           </h1>
-          <NavLink to={'#contact'} className={`CTA`}>
+          <a href="#contact" className={`CTA`}>
             REQUEST A FREE QUOTE
-          </NavLink>
+          </a>
         </div>
       </div>
 

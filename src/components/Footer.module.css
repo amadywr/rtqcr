@@ -1,6 +1,7 @@
 .footer_section {
   margin-top: 20rem;
   background-color: var(--secondary-colour);
+  padding-top: 10rem;
 }
 
 .wrapper {
@@ -43,6 +44,11 @@
 
 .div_item p {
   font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.div_item p:hover {
+  color: var(--accent-colour);
 }
 
 .footer_icon {

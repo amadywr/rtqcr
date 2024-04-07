@@ -7,7 +7,7 @@ import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 function GoogleReview() {
   return (
     <section className={`${styles.google_review_section} mini-container`}>
-      <h1>Google Review</h1>
+      <h1>Google Reviews</h1>
       <div className={styles.main_div}>
         <div>
           <SlArrowLeft className={styles.carousel_arrow} />

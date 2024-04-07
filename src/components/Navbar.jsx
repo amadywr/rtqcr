@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <header className={`${styles.header}`}>
       <div className={`${styles.navbar} container`}>
-        <NavLink href="/">
+        <NavLink to="/">
           <img
             src={logo}
             alt="RTQ Concrete Resurfacing"
@@ -27,15 +27,15 @@ function Navbar() {
             RECENT PROJECTS
           </NavLink>
 
-          <NavLink to="/s" className={styles.navbar_menu_item}>
+          <a href="#contact" className={styles.navbar_menu_item}>
             CONTACT
-          </NavLink>
+          </a>
 
           <a
             href="tel:0470175621"
             className={`${styles.navbar_menu_item} ${styles.navbar_menu_item_phone}`}
           >
-            0470 175 621
+            0473 098 092
           </a>
         </nav>
       </div>

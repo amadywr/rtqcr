@@ -1,6 +1,7 @@
 import React from 'react';
 import servicePhoto from '../assets/epoxy_flooring.jpg';
 import styles from './Services.module.css';
+import { Link } from 'react-router-dom';
 
 function Services() {
   return (
@@ -8,11 +9,11 @@ function Services() {
       <h1>Our services</h1>
 
       <div className={`${styles.services_div}`}>
-        <div className={`${styles.services_item}`}>
+        <Link to="/spray-crete-floor" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
-            <h2>Spray-Crete Floors</h2>
+            <h2>Spray-Crete Floor</h2>
             <p>
               Spray-Crete Floors is the perfect solution for worn, tired and
               cracked concrete driveways and pathways. This process seals the
@@ -20,9 +21,9 @@ function Services() {
               protecting it in the future
             </p>
           </div>
-        </div>
+        </Link>
 
-        <div className={`${styles.services_item}`}>
+        <Link to="epoxy_flooring" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -35,9 +36,9 @@ function Services() {
               epoxy flooring applicator with a quality workmanship guarantee
             </p>
           </div>
-        </div>
+        </Link>
 
-        <div className={`${styles.services_item}`}>
+        <Link to="/concrete_sealing" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -50,9 +51,9 @@ function Services() {
               cost-effective solution for resilient and vibrant concrete
             </p>
           </div>
-        </div>
+        </Link>
 
-        <div className={`${styles.services_item}`}>
+        <Link to="concrete_polishing" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -66,7 +67,7 @@ function Services() {
               offering a stylish and sustainable flooring solution
             </p>
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );

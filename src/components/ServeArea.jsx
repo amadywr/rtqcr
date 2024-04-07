@@ -9,13 +9,13 @@ function ServeArea() {
       <div className={`${styles.serve_area_div} mini-container`}>
         <h1>Areas we serve</h1>
         <p>
-          Situated in Western Sydney, RTQCR is your premier destination for
-          high-quality concrete services . Specializing in residential,
-          commercial, and industrial projects, we excel in concrete resurfacing,
-          sealing, polishing, and epoxy flooring. Our dedicated team proudly
-          serves the entire greater Sydney region, extending from Campbelltown
-          to Palm Beach and from Richmond to Cronulla. Elevate your space with
-          our expert concrete solutions, tailored to perfection
+          Situated in Western Sydney, RTQ Concrete Resurfacing is your premier
+          destination for high-quality concrete services . Specializing in
+          residential, commercial, and industrial projects, we excel in concrete
+          resurfacing, sealing, polishing, and epoxy flooring. Our dedicated
+          team proudly serves the entire greater Sydney region, extending from
+          Campbelltown to Palm Beach and from Richmond to Cronulla. Elevate your
+          space with our expert concrete solutions, tailored to perfection
         </p>
 
         <div className={styles.icons_div}>
