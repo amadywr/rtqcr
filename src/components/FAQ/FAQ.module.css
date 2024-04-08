@@ -1,5 +1,5 @@
 .faq_question_div {
-  background-color: var(--secondary-dark-colour);
+  background-color: var(--secondary-colour);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +12,7 @@
 .faq_question_div:hover {
   cursor: pointer;
   transform: scale(0.98);
-  background-color: var(--secondary-colour);
+  background-color: var(--secondary-dark-colour);
 }
 
 .faq_question_div p {

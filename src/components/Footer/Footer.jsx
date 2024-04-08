@@ -30,7 +30,7 @@ function Footer() {
           </div>
 
           <div className={styles.inner_div_wrapper}>
-            <h2>Follow us on</h2>
+            <h2>Follow us</h2>
             <div className={styles.inner_div}>
               <a
                 href="https://www.facebook.com/RTQConcreteResurfacing/"
@@ -105,7 +105,7 @@ function Footer() {
       </div>
       <div className={styles.signature}>
         <p>Copyright &copy; {new Date().getFullYear()}. All rights reserved.</p>
-        <p>
+        {/* <p>
           Built by{' '}
           <a
             href="https://www.ahmadyawari.com/"
@@ -114,7 +114,7 @@ function Footer() {
           >
             Ahmad
           </a>
-        </p>
+        </p> */}
       </div>
     </section>
   );

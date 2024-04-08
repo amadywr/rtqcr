@@ -20,9 +20,9 @@
   border-radius: 10px;
   width: 100%;
   overflow: hidden;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); */
   transition: 0.5s;
   cursor: pointer;
   text-decoration: none;
@@ -30,6 +30,7 @@
 
 .services_item:hover {
   transform: translateY(-10px);
+  background-color: var(--secondary-dark-colour);
 }
 
 .services_item img {
