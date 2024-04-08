@@ -97,5 +97,5 @@
 }
 
 .show_more_projects {
-  display: block;
+  display: flex;
 }

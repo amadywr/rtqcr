@@ -23,7 +23,7 @@ function Navbar() {
             SERVICES
           </a>
 
-          <NavLink to="/a" className={styles.navbar_menu_item}>
+          <NavLink to="/gallery" className={styles.navbar_menu_item}>
             GALLERY
           </NavLink>
 

@@ -17,7 +17,7 @@ const homepageFAQs = [
   {
     question: 'How long does a typical concrete project take?',
     answer:
-      'Depending on the scale of the project, the project can take everywhere between 1 to 5 days',
+      'Depending on the scale of the project, the project can take anywhere between 1 to 5 days',
   },
   {
     question:
