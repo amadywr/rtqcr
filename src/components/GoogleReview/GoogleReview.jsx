@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './GoogleReview.module.css';
-import person from '../assets/person.jpg';
+import person from '../../assets/person.jpg';
 import { RiStarSFill } from 'react-icons/ri';
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 

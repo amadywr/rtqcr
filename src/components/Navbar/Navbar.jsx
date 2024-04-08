@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo.webp';
+import logo from '../../assets/logo.webp';
 import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
@@ -19,12 +19,12 @@ function Navbar() {
             HOME
           </NavLink>
 
-          <NavLink to="/page2" className={styles.navbar_menu_item}>
+          <a href="#ourServices" className={styles.navbar_menu_item}>
             SERVICES
-          </NavLink>
+          </a>
 
           <NavLink to="/a" className={styles.navbar_menu_item}>
-            RECENT PROJECTS
+            GALLERY
           </NavLink>
 
           <a href="#contact" className={styles.navbar_menu_item}>

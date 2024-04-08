@@ -1,11 +1,14 @@
 import React from 'react';
-import servicePhoto from '../assets/epoxy_flooring.jpg';
+import servicePhoto from '../../assets/epoxy_flooring.jpg';
 import styles from './Services.module.css';
 import { Link } from 'react-router-dom';
 
 function Services() {
   return (
-    <section className={`${styles.services_section} mini-container`}>
+    <section
+      className={`${styles.services_section} mini-container`}
+      id="ourServices"
+    >
       <h1>Our services</h1>
 
       <div className={`${styles.services_div}`}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './RecentProjects.module.css';
-import photo from '../assets/epoxy_flooring.jpg';
+import photo from '../../assets/epoxy_flooring.jpg';
 
 function RecontProjects() {
   return (

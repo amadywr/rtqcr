@@ -1,4 +1,4 @@
-import FAQ from './FAQ';
+import FAQ from '../FAQ/FAQ';
 import styles from './FAQs.module.css';
 
 function FAQs({
