@@ -1,11 +1,14 @@
-import React from 'react';
+import { useState } from 'react';
 import logo from '../../assets/logo.webp';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import Dropdown from '../Dropdown/Dropdown';
 
 function Navbar() {
+  const [dropdown, setDropdown] = useState(false);
+
   return (
-    <header className={`${styles.header}`}>
+    <header className={`${styles.header}`} id="navbar">
       <div className={`${styles.navbar} container`}>
         <NavLink to="/">
           <img
@@ -19,13 +22,17 @@ function Navbar() {
             HOME
           </NavLink>
 
-          <a href="#ourServices" className={styles.navbar_menu_item}>
-            SERVICES
-          </a>
+          <div
+            onMouseEnter={() => setDropdown(true)}
+            onMouseLeave={() => setDropdown(false)}
+          >
+            <p className={styles.navbar_menu_item}>SERVICES</p>
+            {dropdown && <Dropdown />}
+          </div>
 
-          <NavLink to="/gallery" className={styles.navbar_menu_item}>
+          {/* <NavLink to="/gallery" className={styles.navbar_menu_item}>
             GALLERY
-          </NavLink>
+          </NavLink> */}
 
           <a href="#contact" className={styles.navbar_menu_item}>
             CONTACT

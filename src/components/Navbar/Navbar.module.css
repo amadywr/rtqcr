@@ -41,6 +41,7 @@
 .navbar_menu_item:hover {
   color: var(--accent-colour);
   transform: scale(0.95);
+  cursor: pointer;
 }
 
 .navbar_menu_item_phone {
@@ -59,5 +60,5 @@
 .navbar_menu :global(.active) {
   font-weight: 800;
   color: var(--accent-colour);
-  border-bottom: 0.3rem solid var(--accent-colour);
+  border-bottom: 3px solid var(--accent-colour);
 }
