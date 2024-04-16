@@ -1,117 +1,37 @@
-import { useState } from 'react';
 import styles from './RecentProjects.module.css';
-import photo from '../../assets/epoxy_flooring.jpg';
+import Project from '../Project/Project';
+import { Navigation, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/bundle';
 
 function RecontProjects() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <section className={`${styles.recent_projects_section} mini-container`}>
       <h1>Recent Projects</h1>
 
-      <div className={styles.projects_div}>
-        <div className={styles.project_div}>
-          <div>
-            <p>Penrith</p>
-            <h2>Concrete Resurfacing</h2>
-          </div>
-          <div className={styles.project_before_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_before}
-            />
-          </div>
+      <Swiper
+        pagination={{ el: '.slider-pagination', clickable: true }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <Project />
+        </SwiperSlide>
 
-          <div className={styles.project_after_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_after}
-            />
-          </div>
+        <SwiperSlide>
+          <Project />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Project />
+        </SwiperSlide>
+
+        <div className="pagination-wrapper">
+          <div className="slider-pagination"></div>
         </div>
-
-        <div className={styles.project_div}>
-          <div>
-            <p>Penrith</p>
-            <h2>Concrete Resurfacing</h2>
-          </div>
-          <div className={styles.project_before_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_before}
-            />
-          </div>
-
-          <div className={styles.project_after_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_after}
-            />
-          </div>
-        </div>
-
-        <div
-          className={`${styles.project_div} ${
-            isOpen ? styles.show_more_projects : styles.hide_more_projects
-          }`}
-        >
-          <div>
-            <p>Penrith</p>
-            <h2>Concrete Resurfacing</h2>
-          </div>
-          <div className={styles.project_before_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_before}
-            />
-          </div>
-
-          <div className={styles.project_after_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_after}
-            />
-          </div>
-        </div>
-
-        <div
-          className={`${styles.project_div} ${
-            isOpen ? styles.show_more_projects : styles.hide_more_projects
-          }`}
-        >
-          <div>
-            <p>Penrith</p>
-            <h2>Concrete Resurfacing</h2>
-          </div>
-          <div className={styles.project_before_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_before}
-            />
-          </div>
-
-          <div className={styles.project_after_div}>
-            <img
-              src={photo}
-              alt="concrete resurfacing"
-              className={styles.project_after}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.button_div}>
-        <button className="CTA" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? 'View less projects' : 'View more projects'}
-        </button>
-      </div>
+      </Swiper>
     </section>
   );
 }

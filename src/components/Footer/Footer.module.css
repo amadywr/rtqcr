@@ -55,6 +55,7 @@
 
 .footer_icon {
   font-size: 2.2rem;
+  color: var(--accent-colour);
 }
 
 .right_div {
@@ -96,7 +97,7 @@
   cursor: pointer;
 }
 .submit:hover {
-  transform: scale(0.95);
+  transform: scale(0.97);
   background-color: var(--accent-hover-colour);
 }
 

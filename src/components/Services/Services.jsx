@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Services() {
   return (
     <section
-      className={`${styles.services_section} mini-container`}
+      className={`${styles.services_section} mini-mini-container`}
       id="ourServices"
     >
       <h1>Our services</h1>
