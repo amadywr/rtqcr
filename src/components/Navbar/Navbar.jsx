@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.webp';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import Dropdown from '../Dropdown/Dropdown';
 
