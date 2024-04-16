@@ -58,7 +58,7 @@
   color: var(--accent-colour);
 }
 
-.right_div {
+/* .right_div {
   width: 50rem;
   background-color: var(--secondary-dark-colour);
   padding: 2rem;
@@ -99,7 +99,7 @@
 .submit:hover {
   transform: scale(0.97);
   background-color: var(--accent-hover-colour);
-}
+} */
 
 .signature {
   padding-top: 10rem;

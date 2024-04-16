@@ -4,6 +4,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { RiInstagramFill } from 'react-icons/ri';
+import Form from '../Form/Form';
 
 function Footer() {
   return (
@@ -54,7 +55,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className={styles.right_div}>
+        {/* <div className={styles.right_div}>
           <form action="">
             <input
               type="text"
@@ -101,7 +102,9 @@ function Footer() {
 
             <input type="submit" value="Submit" className={styles.submit} />
           </form>
-        </div>
+        </div> */}
+
+        <Form />
       </div>
       <div className={styles.signature}>
         <p>Copyright &copy; {new Date().getFullYear()}. All rights reserved.</p>

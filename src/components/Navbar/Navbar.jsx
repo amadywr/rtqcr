@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.webp';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import Dropdown from '../Dropdown/Dropdown';
 
@@ -10,17 +10,17 @@ function Navbar() {
   return (
     <header className={`${styles.header}`} id="navbar">
       <div className={`${styles.navbar} container`}>
-        <NavLink to="/">
+        <a href="/">
           <img
             src={logo}
             alt="RTQ Concrete Resurfacing"
             className={styles.logo}
           />
-        </NavLink>
+        </a>
         <nav className={styles.navbar_menu}>
-          <NavLink to="/" className={styles.navbar_menu_item}>
+          <a href="/" className={styles.navbar_menu_item}>
             HOME
-          </NavLink>
+          </a>
 
           <div
             onMouseEnter={() => setDropdown(true)}
@@ -30,9 +30,9 @@ function Navbar() {
             {dropdown && <Dropdown />}
           </div>
 
-          {/* <NavLink to="/gallery" className={styles.navbar_menu_item}>
+          <a href="/gallery" className={styles.navbar_menu_item}>
             GALLERY
-          </NavLink> */}
+          </a>
 
           <a href="#contact" className={styles.navbar_menu_item}>
             CONTACT

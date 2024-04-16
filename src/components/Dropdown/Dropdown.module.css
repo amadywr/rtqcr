@@ -13,14 +13,15 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 2.5rem;
+  border-radius: 5px;
 }
 
 .dropdown_item {
   text-decoration: none;
   color: var(--text-colour);
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   transition: 0.5s;
 }
 
