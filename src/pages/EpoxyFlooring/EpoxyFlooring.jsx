@@ -1,10 +1,10 @@
 import React from 'react';
-import Hero from '../../components/EpoxyComponents/Hero/Hero';
-import Why from '../../components/EpoxyComponents/Why/Why';
-import Design from '../../components/EpoxyComponents/Design/Design';
-import Gallery from '../../components/EpoxyComponents/Gallery/Gallery';
-import MiddleText from '../../components/EpoxyComponents/MiddleText/MiddleText';
-import FAQs from '../../components/FAQs/FAQs';
+import Hero from '../../components/epoxy_components/Hero/Hero';
+import Why from '../../components/epoxy_components/Why/Why';
+import Design from '../../components/epoxy_components/Design/Design';
+import Gallery from '../../components/epoxy_components/Gallery/Gallery';
+import MiddleText from '../../components/epoxy_components/MiddleText/MiddleText';
+import FAQs from '../../components/general_components/FAQs/FAQs';
 import epoxyFAQs from '../../assets/epoxyFAQs';
 
 function EpoxyFlooring() {

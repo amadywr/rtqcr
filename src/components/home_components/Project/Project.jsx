@@ -1,5 +1,5 @@
 import styles from './Project.module.css';
-import photo from '../../assets/epoxy_flooring.jpg';
+import photo from '../../../assets/epoxy_flooring.jpg';
 
 function Project2() {
   return (

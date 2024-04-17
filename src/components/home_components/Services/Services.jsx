@@ -1,7 +1,6 @@
 import React from 'react';
-import servicePhoto from '../../assets/epoxy_flooring.jpg';
+import servicePhoto from '../../../assets/epoxy_flooring.jpg';
 import styles from './Services.module.css';
-import { Link } from 'react-router-dom';
 
 function Services() {
   return (
@@ -12,7 +11,7 @@ function Services() {
       <h1>Our services</h1>
 
       <div className={`${styles.services_div}`}>
-        <Link to="/spray-crete-floor" className={`${styles.services_item}`}>
+        <a href="/spray-crete-floor" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -24,9 +23,9 @@ function Services() {
               protecting it in the future
             </p>
           </div>
-        </Link>
+        </a>
 
-        <Link to="epoxy_flooring" className={`${styles.services_item}`}>
+        <a href="epoxy_flooring" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -39,9 +38,9 @@ function Services() {
               epoxy flooring applicator with a quality workmanship guarantee
             </p>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/concrete_sealing" className={`${styles.services_item}`}>
+        <a href="/concrete_sealing" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -54,9 +53,9 @@ function Services() {
               cost-effective solution for resilient and vibrant concrete
             </p>
           </div>
-        </Link>
+        </a>
 
-        <Link to="concrete_polishing" className={`${styles.services_item}`}>
+        <a href="concrete_polishing" className={`${styles.services_item}`}>
           <img src={servicePhoto} alt="epoxy flooring" />
 
           <div>
@@ -70,7 +69,7 @@ function Services() {
               offering a stylish and sustainable flooring solution
             </p>
           </div>
-        </Link>
+        </a>
       </div>
     </section>
   );
