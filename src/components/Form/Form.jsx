@@ -1,12 +1,17 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import styles from './Form.module.css';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast, Bounce } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ReactLoading from 'react-loading';
 
 function Form() {
   const form = useRef();
+  const [isLoading, setIsLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsLoading(true);
 
     emailjs
       .sendForm('service_1w33hna', 'template_sjry4w2', form.current, {
@@ -17,13 +22,45 @@ function Form() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          e.target.reset();
+          succcessNotify();
+          setIsLoading(false);
         },
         (error) => {
+          errorNotify();
           console.log('FAILED...', error.text);
+          setIsLoading(false);
         }
       );
   };
+
+  const succcessNotify = () =>
+    toast.success('Email sent successfully', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+      transition: Bounce,
+      style: { fontSize: '14px' },
+    });
+
+  const errorNotify = () =>
+    toast.error('Something went wrong, try again', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+      transition: Bounce,
+      style: { fontSize: '14px' },
+    });
 
   return (
     <div className={styles.right_div}>
@@ -71,8 +108,20 @@ function Form() {
           required
         ></textarea>
 
-        <input type="submit" value="Submit" className={styles.submit} />
+        <button type="submit" className={styles.submit}>
+          {isLoading ? (
+            <ReactLoading
+              type={'bubbles'}
+              // color={'FFFFFF'}
+              height={40}
+              width={40}
+            />
+          ) : (
+            'Submit'
+          )}
+        </button>
       </form>
+      <ToastContainer />
     </div>
   );
 }
