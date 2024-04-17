@@ -1,0 +1,27 @@
+.why_wrapper {
+  margin-top: 20rem;
+}
+
+.why_wrapper div {
+  display: flex;
+  flex-basis: 0;
+  gap: 5rem;
+}
+
+.why_wrapper div ul {
+  flex: 1 1 0px;
+  list-style: none;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.why_wrapper span {
+  color: var(--accent-colour);
+  font-weight: 800;
+}
+
+.item_id {
+  margin-right: 1rem;
+}
