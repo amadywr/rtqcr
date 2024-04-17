@@ -13,10 +13,11 @@ function ServeArea() {
           destination for high-quality concrete services . Specializing in
           residential, commercial, and industrial projects, we excel in concrete
           resurfacing, sealing, polishing, and epoxy flooring. Our dedicated
-          team proudly serves the entire greater Sydney region, extending from
-          Campbelltown to Palm Beach and from Richmond to Cronulla. Elevate your
+          team proudly serves the entire greater Sydney region. Elevate your
           space with our expert concrete solutions, tailored to perfection
         </p>
+
+        <p className={styles.slogan}>Resurface. Renew. Re-Imagine</p>
 
         <div className={styles.icons_div}>
           <div className={styles.icon_item}>

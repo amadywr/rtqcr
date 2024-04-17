@@ -2,10 +2,11 @@ import styles from './RecentProjects.module.css';
 import Project from '../Project/Project';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import recentProjects from '../../../assets/recentProjects';
 
 import 'swiper/css/bundle';
 
-function RecontProjects() {
+function RecentProjects() {
   return (
     <section className={`${styles.recent_projects_section} mini-container`}>
       <h1>Recent Projects</h1>
@@ -16,17 +17,19 @@ function RecontProjects() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {recentProjects.map((project, index) => (
+          <SwiperSlide key={index}>
+            <Project project={project} />
+          </SwiperSlide>
+        ))}
+
+        {/* <SwiperSlide>
           <Project />
         </SwiperSlide>
 
         <SwiperSlide>
           <Project />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Project />
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <div className="pagination-wrapper">
           <div className="slider-pagination"></div>
@@ -36,4 +39,4 @@ function RecontProjects() {
   );
 }
 
-export default RecontProjects;
+export default RecentProjects;

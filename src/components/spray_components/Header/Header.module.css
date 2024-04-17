@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text_right {
+  order: 1;
+}
+
+.header div {
+  height: 2px;
+  background-color: red;
+  flex-grow: 1;
+}

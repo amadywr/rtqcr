@@ -1,30 +1,37 @@
 import styles from './Project.module.css';
-import photo from '../../../assets/epoxy_flooring.jpg';
 
-function Project2() {
+function Project({ project }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.details_header}>
-            <p className={styles.suburb}>Penrith</p>
-            <h1 className={styles.project_type}>Concrete Resurfacing</h1>
+            <p className={styles.suburb}>{project.suburb}</p>
+            <h1 className={styles.project_type}>{project.type}</h1>
           </div>
           <div className={styles.details_body}>
-            <p>Bluh Bluh Bluh</p>
-            <p>Bluh Bluh Bluh</p>
-            <p>Bluh Bluh Bluh</p>
+            {project.details.map((item, index) => (
+              <p key={index}>{item}</p>
+            ))}
           </div>
         </div>
         <div className={styles.right}>
           <div className={styles.img_before_wrapper}>
             <div>
-              <img src={photo} alt="aa" className={styles.before_img} />
+              <img
+                src={project.imgBefore}
+                alt="project before"
+                className={styles.before_img}
+              />
             </div>
           </div>
           <div className={styles.img_after_wrapper}>
             <div>
-              <img src={photo} alt="aa" className={styles.after_img} />
+              <img
+                src={project.imgAfter}
+                alt="project after"
+                className={styles.after_img}
+              />
             </div>
           </div>
         </div>
@@ -33,4 +40,4 @@ function Project2() {
   );
 }
 
-export default Project2;
+export default Project;
