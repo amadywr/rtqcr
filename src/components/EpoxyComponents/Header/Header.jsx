@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Header.module.css';
 
-function Header() {
+function Header({ text, textRight }) {
   return (
-    <div className={`${styles.upper_div}`}>
-      <h1>Why choose epoxy flooring, you ask?</h1>
+    <div className={`${styles.header}`}>
+      <h1 className={textRight ? styles.text_right : ''}>{text}</h1>
       <div></div>
     </div>
   );

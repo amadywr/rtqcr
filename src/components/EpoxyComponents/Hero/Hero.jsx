@@ -3,7 +3,10 @@ import styles from './Hero.module.css';
 
 function Hero() {
   return (
-    <div className={styles.hero_wrapper}>
+    <div
+      className={styles.hero_wrapper}
+      data-heroImg={'../../../assets/hero.jpg'}
+    >
       <h1>Epoxy Flooring</h1>
       <div className={`${styles.hero_text_div}`}>
         <p>

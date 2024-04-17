@@ -2,19 +2,24 @@
   margin-top: 20rem;
 }
 
-.why_wrapper div {
+/* FROM HERE */
+
+.body {
+  margin-top: 5rem;
   display: flex;
-  flex-basis: 0;
-  gap: 5rem;
+  flex-direction: column;
+  font-size: 1.4rem;
+  gap: 3rem;
 }
 
 .why_wrapper div ul {
-  flex: 1 1 0px;
   list-style: none;
-  font-size: 1.4rem;
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  gap: 10rem;
+}
+
+.why_wrapper div ul li {
+  flex: 1 1 0px;
 }
 
 .why_wrapper span {
@@ -25,3 +30,5 @@
 .item_id {
   margin-right: 1rem;
 }
+
+/* TO HERE */

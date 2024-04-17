@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from './Why.module.css';
 import Header from '../Header/Header';
-import epoxyWhy from '../../../assets/epoxyWhy';
 
 function Why() {
   return (
     <div className={`${styles.why_wrapper} mini-container`}>
-      <Header />
+      <Header text={'Why choose epoxy flooring, you ask?'} />
 
-      <div>
+      <div className={styles.body}>
         <ul>
           <li>
             <span className={styles.item_id}>1. </span>
@@ -20,6 +19,16 @@ function Why() {
           </li>
 
           <li>
+            <span className={styles.item_id}>4. </span>
+            <span>Versatility at its Best: </span>Perfect for residential,
+            commercial, or industrial spaces, epoxy flooring adapts to your
+            needs. From garages to living rooms, kitchens to warehouses,
+            experience the versatility that sets our flooring apart
+          </li>
+        </ul>
+
+        <ul>
+          <li>
             <span className={styles.item_id}>2. </span>
             <span>Seamless Style: </span>Create a sleek, polished look that
             effortlessly complements any design aesthetic. Our epoxy flooring
@@ -29,30 +38,23 @@ function Why() {
           </li>
 
           <li>
+            <span className={styles.item_id}>5. </span>
+            <span>Eco-friendly Choices: </span>We understand the importance of
+            sustainability. Our epoxy flooring options are crafted with
+            environmentally friendly materials, ensuring you make a responsible
+            choice without compromising on quality
+          </li>
+        </ul>
+
+        <ul>
+          <li>
             <span className={styles.item_id}>3. </span>
             <span>Low Maintenance and High Impact: </span>Tired of spending
             hours on floor upkeep? Epoxy flooring is not only resistant to dirt
             and grime but also incredibly easy to clean. Enjoy a low-maintenance
             solution that doesn't compromise on aesthetics
           </li>
-        </ul>
-
-        <ul>
-          <li>
-            <span className={styles.item_id}>4. </span>
-            <span>Versatility at its Best: </span>Perfect for residential,
-            commercial, or industrial spaces, epoxy flooring adapts to your
-            needs. From garages to living rooms, kitchens to warehouses,
-            experience the versatility that sets our flooring apart
-          </li>
-
-          <li>
-            <span className={styles.item_id}>4. </span>
-            <span>Eco-friendly Choices: </span>We understand the importance of
-            sustainability. Our epoxy flooring options are crafted with
-            environmentally friendly materials, ensuring you make a responsible
-            choice without compromising on quality
-          </li>
+          <li></li>
         </ul>
       </div>
     </div>
