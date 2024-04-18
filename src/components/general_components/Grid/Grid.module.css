@@ -1,0 +1,28 @@
+.grid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.item {
+  background-color: var(--secondary-colour);
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(0.95);
+}
+
+.item img {
+  width: 100%;
+}
+
+.item p {
+  padding: 1rem 0;
+  font-style: italic;
+}

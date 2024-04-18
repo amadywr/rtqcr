@@ -95,6 +95,7 @@ body {
   letter-spacing: 0.5px;
   outline: none;
   border: none;
+  text-transform: lowercase;
 }
 
 .button:hover {
@@ -104,4 +105,20 @@ body {
 
 .hidden {
   display: none !important;
+}
+
+.margin-top-mini {
+  margin-top: 5rem;
+}
+
+.margin-top-small {
+  margin-top: 10rem;
+}
+
+.margin-top-medium {
+  margin-top: 15rem;
+}
+
+.margin-top-large {
+  margin-top: 20rem;
 }

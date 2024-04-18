@@ -1,11 +1,9 @@
 import { useState } from 'react';
-import Header from '../Header/Header';
+import Header from '../../general_components/Header/Header';
 import styles from './Gallery.module.css';
-import gallery1 from '../../../assets/spray_images/gallery/gallery1';
-import gallery2 from '../../../assets/spray_images/gallery/gallery2';
 import Modal from '../../general_components/Modal/Modal';
 
-function Gallery() {
+function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
   const [viewMore, setViewMore] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImageSource, setModalImageSource] = useState('');
@@ -17,8 +15,8 @@ function Gallery() {
   }
 
   return (
-    <div className={`mini-container ${styles.wrapper}`}>
-      <Header text={'Gallery'} />
+    <div className={`mini-container margin-top-medium`}>
+      <Header headerText={headerText} headerTextRight={headerTextRight} />
 
       <div className={styles.gallery}>
         {gallery1.map((image, i) => (
@@ -47,7 +45,7 @@ function Gallery() {
 
       <div className="button_div">
         <button className="button" onClick={() => setViewMore(!viewMore)}>
-          {viewMore ? 'View less' : 'View more'}
+          {viewMore ? `View less ${btnText}` : `View more ${btnText}`}
         </button>
       </div>
       {modalOpen && (

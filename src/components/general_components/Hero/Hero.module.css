@@ -1,5 +1,5 @@
 .hero_wrapper {
-  background-image: url('../../../assets/spray_images/hero.jpg');
+  /* background-image: url('../../../assets/spray_images/hero.jpg'); */
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,6 +13,7 @@
 .hero_wrapper h1 {
   color: #fff;
   font-size: 7rem;
+  text-transform: capitalize;
 }
 
 .hero_text_div {

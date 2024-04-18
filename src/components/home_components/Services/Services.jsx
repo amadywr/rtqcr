@@ -1,6 +1,6 @@
 import React from 'react';
 import sealing_hero from '../../../assets/sealing/hero.png';
-import spray_crete_hero from '../../../assets/spray_images/hero.jpg';
+import spray_crete_hero from '../../../assets/spray/hero.jpg';
 import epoxy_hero from '../../../assets/epoxy_images/hero.jpg';
 import polishing_hero from '../../../assets/polishing_images/hero.jpg';
 

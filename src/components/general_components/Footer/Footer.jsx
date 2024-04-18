@@ -8,7 +8,10 @@ import Form from '../Form/Form';
 
 function Footer() {
   return (
-    <section className={`${styles.footer_section}`} id="contact">
+    <footer
+      className={`margin-top-medium ${styles.footer_section}`}
+      id="contact"
+    >
       <div className={`${styles.wrapper} mini-container`}>
         <div className={styles.left_div}>
           <div className={styles.inner_div_wrapper}>
@@ -55,55 +58,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* <div className={styles.right_div}>
-          <form action="">
-            <input
-              type="text"
-              name="Name"
-              id="name"
-              placeholder="Name"
-              className={styles.input_fields}
-              required
-            />
-            <input
-              type="email"
-              name="Email"
-              id="email"
-              placeholder="Email"
-              className={styles.input_fields}
-              required
-            />
-            <input
-              type="tel"
-              name="Phone"
-              id="phone"
-              pattern="[0-9]*"
-              inputMode="numeric"
-              placeholder="Phone"
-              className={styles.input_fields}
-              required
-            />
-            <input
-              type="text"
-              name="suburb"
-              id="suburb"
-              placeholder="Suburb"
-              className={styles.input_fields}
-              required
-            />
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Message"
-              rows={10}
-              className={styles.input_fields}
-              required
-            ></textarea>
-
-            <input type="submit" value="Submit" className={styles.submit} />
-          </form>
-        </div> */}
-
         <Form />
       </div>
       <div className={styles.signature}>
@@ -119,7 +73,7 @@ function Footer() {
           </a>
         </p> */}
       </div>
-    </section>
+    </footer>
   );
 }
 

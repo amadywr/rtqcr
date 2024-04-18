@@ -4,6 +4,10 @@
   gap: 2rem;
 }
 
+.header h1 {
+  text-transform: capitalize;
+}
+
 .text_right {
   order: 1;
 }
