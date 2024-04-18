@@ -1,10 +1,11 @@
+import img1 from './cr_photo2.jpg';
+
 const recentProjects = [
   {
     suburb: 'St Clair',
     type: 'Epoxy Flooring',
     details: ['bluh bluh', 'bluh bluh', 'bluh bluh'],
-    imgBefore:
-      'https://scontent.fsyd3-1.fna.fbcdn.net/v/t39.30808-6/279998150_311341127817305_3568585884346298041_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=B0iBiF7GDfYAb7FV4JR&_nc_ht=scontent.fsyd3-1.fna&oh=00_AfDzgKILM60ARWYAQk4WYCsz_xAUwQNIuVNjL3vaMnjbxQ&oe=662574A7',
+    imgBefore: img1,
     imgAfter:
       'https://scontent.fsyd3-1.fna.fbcdn.net/v/t39.30808-6/280027603_311341091150642_7770223434136406748_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3iLe9hQysDYAb7GM60o&_nc_ht=scontent.fsyd3-1.fna&oh=00_AfBgEzCWbR3cL50y-CPe-Q6_bdj9t38aCoFbnh3BlzDvpg&oe=66258B80',
   },
@@ -29,3 +30,5 @@ const recentProjects = [
 ];
 
 export default recentProjects;
+
+// 'https://scontent.fsyd3-1.fna.fbcdn.net/v/t39.30808-6/279998150_311341127817305_3568585884346298041_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=B0iBiF7GDfYAb7FV4JR&_nc_ht=scontent.fsyd3-1.fna&oh=00_AfDzgKILM60ARWYAQk4WYCsz_xAUwQNIuVNjL3vaMnjbxQ&oe=662574A7'
