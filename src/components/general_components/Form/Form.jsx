@@ -16,9 +16,6 @@ function Form() {
     emailjs
       .sendForm('service_1w33hna', 'template_sjry4w2', form.current, {
         publicKey: 'DrxK_kaXTmI-rjT2Z',
-        customer_name: 'appp_name',
-        to_name: 'appp_to',
-        customer_message: 'appp_msg',
       })
       .then(
         () => {
@@ -73,14 +70,14 @@ function Form() {
           className={styles.input_fields}
           required
         />
-        <input
+        {/* <input
           type="email"
           name="customer_email"
           id="customer_email"
           placeholder="Email"
           className={styles.input_fields}
           required
-        />
+        /> */}
         <input
           type="tel"
           name="customer_phone"
@@ -104,7 +101,7 @@ function Form() {
           id="customer_message"
           placeholder="Message"
           rows={10}
-          className={styles.input_fields}
+          className={`${styles.input_fields} ${styles.text_area}`}
           required
         ></textarea>
 

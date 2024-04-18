@@ -17,11 +17,17 @@
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   font-family: 'Inter';
+  outline: none;
+  text-transform: capitalize;
 }
 
 .input_fields:focus {
   border-color: var(--accent-colour);
   outline-color: var(--accent-colour);
+}
+
+.right_div textarea {
+  text-transform: lowercase;
 }
 
 .submit {
