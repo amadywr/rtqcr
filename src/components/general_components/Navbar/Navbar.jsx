@@ -29,9 +29,9 @@ function Navbar() {
             {dropdown && <Dropdown />}
           </div>
 
-          <a href="/gallery" className={styles.navbar_menu_item}>
+          {/* <a href="/gallery" className={styles.navbar_menu_item}>
             GALLERY
-          </a>
+          </a> */}
 
           <a href="#contact" className={styles.navbar_menu_item}>
             CONTACT

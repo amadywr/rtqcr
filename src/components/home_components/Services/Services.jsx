@@ -1,5 +1,9 @@
 import React from 'react';
-import servicePhoto from '../../../assets/epoxy_flooring.jpg';
+import sealing_hero from '../../../assets/sealing/hero.png';
+import spray_crete_hero from '../../../assets/spray_images/hero.jpg';
+import epoxy_hero from '../../../assets/epoxy_images/hero.jpg';
+import polishing_hero from '../../../assets/polishing_images/hero.jpg';
+
 import styles from './Services.module.css';
 
 function Services() {
@@ -12,7 +16,7 @@ function Services() {
 
       <div className={`${styles.services_div}`}>
         <a href="/spray-crete-floor" className={`${styles.services_item}`}>
-          <img src={servicePhoto} alt="epoxy flooring" />
+          <img src={spray_crete_hero} alt="spray crete floor" />
 
           <div>
             <h2>Spray-Crete Floor</h2>
@@ -26,7 +30,7 @@ function Services() {
         </a>
 
         <a href="epoxy_flooring" className={`${styles.services_item}`}>
-          <img src={servicePhoto} alt="epoxy flooring" />
+          <img src={epoxy_hero} alt="epoxy flooring" />
 
           <div>
             <h2>Epoxy Flooring</h2>
@@ -41,7 +45,7 @@ function Services() {
         </a>
 
         <a href="/concrete_sealing" className={`${styles.services_item}`}>
-          <img src={servicePhoto} alt="epoxy flooring" />
+          <img src={sealing_hero} alt="concrete sealing" />
 
           <div>
             <h2>Concrete sealing</h2>
@@ -56,7 +60,7 @@ function Services() {
         </a>
 
         <a href="concrete_polishing" className={`${styles.services_item}`}>
-          <img src={servicePhoto} alt="epoxy flooring" />
+          <img src={polishing_hero} alt="concrete polishing" />
 
           <div>
             <h2>Concrete Polishing</h2>

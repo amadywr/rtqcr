@@ -10,6 +10,9 @@ function Hero() {
           Concrete Resurfacing and Epoxy Flooring with{' '}
           <span>RTQ Concrete Resurfacing</span>
         </h1>
+
+        {/* <p className={styles.slogan}>Resurface. Renew. Re-Imagine</p> */}
+
         <a href="#contact" className={`CTA`}>
           REQUEST A FREE QUOTE
         </a>
