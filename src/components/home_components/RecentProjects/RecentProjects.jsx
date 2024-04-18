@@ -16,6 +16,7 @@ function RecentProjects() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        grabCursor={true}
       >
         {recentProjects.map((project, index) => (
           <SwiperSlide key={index}>

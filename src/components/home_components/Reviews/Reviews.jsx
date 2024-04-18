@@ -13,7 +13,7 @@ function Reviews() {
         pagination={{ el: '.slider-pagination', clickable: true }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        grabCursor={true}
       >
         <SwiperSlide>
           <div className={`${styles.cards_div}`}>
