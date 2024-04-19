@@ -41,7 +41,7 @@ function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
             <img
               src={gridList2[i].source}
               alt={gridList2[i].name}
-              onClick={() => getImage(gridList2[i].source)}
+              onClick={() => getImage(gridList2[i])}
             />
             <p>{gridList2[i].name}</p>
           </div>

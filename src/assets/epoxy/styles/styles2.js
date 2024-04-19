@@ -1,64 +1,44 @@
-import bluegum from './bluegum.png';
-import silver_sands from './silver_sands.png';
-import slate_grey from './slate_grey.png';
-import french_grey from './french_grey.png';
-import granite from './granite.png';
-import bluestone from './bluestone.png';
-import gunmetal from './gunmetal.png';
-import charcoal from './charcoal.png';
-import jet_black from './jet_black.png';
-import chocolate from './chocolate.png';
-import brick_red from './brick_red.png';
-import dark_terracotta from './dark_terracotta.png';
+import sandstone from './sandstone.png';
+import chestnut from './chestnut.png';
+import lite_mocha from './lite_mocha.png';
+import merino from './merino.png';
+import sandy_beige from './sandy_beige.png';
+import cream from './cream.png';
+import white from './white.png';
+import light_terracotta from './light_terracotta.png';
 
 const styles2 = [
   {
-    source: bluegum,
-    name: 'bluegum',
+    source: light_terracotta,
+    name: 'light_terracotta',
   },
   {
-    source: silver_sands,
-    name: 'silver_sands',
+    source: sandstone,
+    name: 'sandstone',
   },
   {
-    source: slate_grey,
-    name: 'slate_grey',
+    source: chestnut,
+    name: 'chestnut',
   },
   {
-    source: french_grey,
-    name: 'french_grey',
+    source: lite_mocha,
+    name: 'lite_mocha',
   },
   {
-    source: granite,
-    name: 'granite',
+    source: merino,
+    name: 'merino',
   },
   {
-    source: bluestone,
-    name: 'bluestone',
+    source: sandy_beige,
+    name: 'sandy_beige',
   },
   {
-    source: gunmetal,
-    name: 'gunmetal',
+    source: cream,
+    name: 'cream',
   },
   {
-    source: charcoal,
-    name: 'charcoal',
-  },
-  {
-    source: jet_black,
-    name: 'jet_black',
-  },
-  {
-    source: chocolate,
-    name: 'chocolate',
-  },
-  {
-    source: brick_red,
-    name: 'brick_red',
-  },
-  {
-    source: dark_terracotta,
-    name: 'dark_terracotta',
+    source: white,
+    name: 'white',
   },
 ];
 
