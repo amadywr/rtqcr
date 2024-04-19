@@ -1,6 +1,6 @@
 import MiddleText from '../../components/general_components/MiddleText/MiddleText';
 import FAQs from '../../components/general_components/FAQs/FAQs';
-import sprayFAQs from '../../assets/sprayFAQs';
+import sprayFAQs from '../../assets/spray/sprayFAQs';
 import Hero from '../../components/general_components/Hero/Hero';
 import heroImg from '../../assets/spray/hero.jpg';
 import Why from '../../components/general_components/Why/Why';
@@ -17,7 +17,7 @@ import gallery2 from '../../assets/spray/gallery/gallery2';
 
 function SprayCreteFloor() {
   return (
-    <main>
+    <div>
       <Hero
         text={'Spray-Crete Floor'}
         info={
@@ -65,7 +65,7 @@ function SprayCreteFloor() {
       <MiddleText />
 
       <FAQs faqs={sprayFAQs} />
-    </main>
+    </div>
   );
 }
 

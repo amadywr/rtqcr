@@ -2,8 +2,7 @@ import styles from './RecentProjects.module.css';
 import Project from '../Project/Project';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import recentProjects from '../../../assets/recentProjects';
-
+import recentProjects from '../../../assets/home/recentProjects';
 import 'swiper/css/bundle';
 
 function RecentProjects() {
@@ -15,7 +14,6 @@ function RecentProjects() {
         pagination={{ el: '.slider-pagination', clickable: true }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
         grabCursor={true}
       >
         {recentProjects.map((project, index) => (
@@ -23,14 +21,6 @@ function RecentProjects() {
             <Project project={project} />
           </SwiperSlide>
         ))}
-
-        {/* <SwiperSlide>
-          <Project />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Project />
-        </SwiperSlide> */}
 
         <div className="pagination-wrapper">
           <div className="slider-pagination"></div>

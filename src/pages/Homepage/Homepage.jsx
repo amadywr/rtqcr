@@ -4,14 +4,14 @@ import Services from '../../components/home_components/Services/Services';
 import ServeArea from '../../components/home_components/ServeArea/ServeArea';
 import RecentProjects from '../../components/home_components/RecentProjects/RecentProjects';
 import FAQs from '../../components/general_components/FAQs/FAQs';
-import homepageFAQs from '../../assets/homepageFAQs';
-import Hero from '../../components/home_components/Hero/Hero';
+import homepageFAQs from '../../assets/home/homepageFAQs';
+import HomepageHero from '../../components/home_components/HomePageHero/HomePageHero';
 import Reviews from '../../components/home_components/Reviews/Reviews';
 
 function Homepage() {
   return (
     <div className={styles.home}>
-      <Hero />
+      <HomepageHero />
       <Services />
       <ServeArea />
       <RecentProjects />
