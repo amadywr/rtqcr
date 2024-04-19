@@ -29,16 +29,12 @@ function Navbar() {
             {dropdown && <Dropdown />}
           </div>
 
-          {/* <a href="/gallery" className={styles.navbar_menu_item}>
-            GALLERY
-          </a> */}
-
           <a href="#contact" className={styles.navbar_menu_item}>
             CONTACT
           </a>
 
           <a
-            href="tel:0470175621"
+            href="tel:0473098092"
             className={`${styles.navbar_menu_item} ${styles.navbar_menu_item_phone}`}
           >
             0473 098 092
