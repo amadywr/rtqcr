@@ -1,9 +1,14 @@
 import React from 'react';
+import styles from './NotFound.module.css';
 
 function NotFound() {
   return (
-    <div>
-      <h1>NOT FOUND</h1>
+    <div className={`mini-container margin-top-large ${styles.wrapper}`}>
+      <h1>Error 404 Page Not Found</h1>
+
+      <a href="/" className="CTA">
+        Go back to homepage
+      </a>
     </div>
   );
 }

@@ -7,11 +7,12 @@ function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
   const [viewMore, setViewMore] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImageSource, setModalImageSource] = useState('');
+  const [caption, setCaption] = useState('');
 
-  function getImage(source) {
-    console.log(source);
+  function getImage(image) {
     setModalOpen(true);
-    setModalImageSource(source);
+    setModalImageSource(image.source);
+    setCaption(image.name);
   }
 
   return (
@@ -24,7 +25,7 @@ function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
             <img
               src={gridList1[i].source}
               alt={gridList1[i].name}
-              onClick={() => getImage(gridList1[i].source)}
+              onClick={() => getImage(gridList1[i])}
             />
             <p>{gridList1[i].name}</p>
           </div>
@@ -57,6 +58,7 @@ function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
         <Modal
           setModalOpen={setModalOpen}
           modalImageSource={modalImageSource}
+          caption={caption}
         />
       )}
     </div>

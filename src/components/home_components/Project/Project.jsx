@@ -1,6 +1,6 @@
 import styles from './Project.module.css';
 
-function Project({ project }) {
+function Project({ project, getImage, setCaption }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
@@ -19,18 +19,26 @@ function Project({ project }) {
           <div className={styles.img_before_wrapper}>
             <div>
               <img
-                src={project.imgBefore}
-                alt="project before"
+                src={project.imgBefore.source}
+                alt={project.imgBefore.name}
                 className={styles.before_img}
+                onClick={() => {
+                  getImage(project.imgBefore.source);
+                  setCaption(project.imgBefore.name);
+                }}
               />
             </div>
           </div>
           <div className={styles.img_after_wrapper}>
             <div>
               <img
-                src={project.imgAfter}
-                alt="project after"
+                src={project.imgAfter.source}
+                alt={project.imgAfter.name}
                 className={styles.after_img}
+                onClick={() => {
+                  getImage(project.imgAfter.source);
+                  setCaption(project.imgAfter.name);
+                }}
               />
             </div>
           </div>

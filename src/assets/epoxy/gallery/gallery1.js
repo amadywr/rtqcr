@@ -9,15 +9,15 @@ import img8 from './spray_8.jpg';
 import img9 from './spray_9.jpg';
 
 const gallery1 = [
-  { source: img1 },
-  { source: img2 },
-  { source: img3 },
-  { source: img4 },
-  { source: img5 },
-  { source: img6 },
-  { source: img7 },
-  { source: img8 },
-  { source: img9 },
+  { id: 1, source: img1 },
+  { id: 2, source: img2 },
+  { id: 3, source: img3 },
+  { id: 4, source: img4 },
+  { id: 5, source: img5 },
+  { id: 6, source: img6 },
+  { id: 7, source: img7 },
+  { id: 8, source: img8 },
+  { id: 9, source: img9 },
 ];
 
 export default gallery1;

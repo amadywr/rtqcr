@@ -7,11 +7,12 @@ function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
   const [viewMore, setViewMore] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImageSource, setModalImageSource] = useState('');
+  const [caption, setCaption] = useState('');
 
-  function getImage(source) {
-    console.log(source);
+  function getImage(image) {
     setModalOpen(true);
-    setModalImageSource(source);
+    setModalImageSource(image.source);
+    setCaption(`Galley Image ${image.id}`);
   }
 
   return (
@@ -24,7 +25,7 @@ function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
             key={i}
             src={image.source}
             alt="gallery"
-            onClick={() => getImage(image.source)}
+            onClick={() => getImage(image)}
           />
         ))}
       </div>
@@ -38,7 +39,7 @@ function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
             key={i}
             src={image.source}
             alt="gallery"
-            onClick={() => getImage(image.source)}
+            onClick={() => getImage(image)}
           />
         ))}
       </div>
@@ -53,6 +54,7 @@ function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
           modalImageSource={modalImageSource}
           setModalOpen={setModalOpen}
           modalOpen={modalOpen}
+          caption={caption}
         />
       )}
     </div>
