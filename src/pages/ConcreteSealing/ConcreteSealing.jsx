@@ -3,6 +3,7 @@ import heroImg from '../../assets/sealing/hero.png';
 import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/sealing/why';
 import Info from '../../components/general_components/Info/Info';
+import ColourGrid from '../../components/general_components/ColourGrid/ColourGrid';
 
 function ConcreteSealing() {
   return (
@@ -29,6 +30,8 @@ function ConcreteSealing() {
           'We start by preparing surfaces, repairing damage, then apply premium sealants using specialized techniques. Our team ensures optimal protection, selecting the right sealant for driveways, patios, or commercial floors'
         }
       />
+
+      <ColourGrid />
     </div>
   );
 }

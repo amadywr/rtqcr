@@ -2,9 +2,6 @@ import React from 'react';
 import Header from '../../general_components/Header/Header';
 import styles from './Info.module.css';
 
-const defaultText =
-  'we understand that every space is unique, and your {serviceType} surfaces should reflect your personal style. Explore the diverse range of patterns, designs, and colours that our {serviceType} solutions offer';
-
 function Info({ serviceType, headerText, headerTextRight, customText }) {
   return (
     <div className="mini-container margin-top-medium">
@@ -12,7 +9,10 @@ function Info({ serviceType, headerText, headerTextRight, customText }) {
 
       <div className={styles.text_div}>
         <p className={`${styles.text} margin-top-mini`}>
-          At <span>RTQCR</span>, {customText ? customText : defaultText}
+          At <span>RTQCR</span>,{' '}
+          {customText
+            ? customText
+            : `we understand that every space is unique, and your floor surfaces should reflect your personal style. Explore the diverse range of patterns, designs, and colours that our ${serviceType} solutions offer`}
         </p>
       </div>
     </div>

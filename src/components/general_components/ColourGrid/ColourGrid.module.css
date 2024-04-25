@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.item {
+  background-color: var(--secondary-colour);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.colour {
+  aspect-ratio: 1/1;
+}
+
+.name {
+  text-transform: capitalize;
+  padding: 1rem 0;
+  text-align: center;
+}

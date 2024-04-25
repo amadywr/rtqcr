@@ -14,51 +14,51 @@ import dark_terracotta from './dark_terracotta.png';
 const styles1 = [
   {
     source: bluegum,
-    name: 'bluegum',
+    name: 'Bluegum',
   },
   {
     source: silver_sands,
-    name: 'silver_sands',
+    name: 'Silver Sands',
   },
   {
     source: slate_grey,
-    name: 'slate_grey',
+    name: 'Slate Grey',
   },
   {
     source: french_grey,
-    name: 'french_grey',
+    name: 'French Grey',
   },
   {
     source: granite,
-    name: 'granite',
+    name: 'Granite',
   },
   {
     source: bluestone,
-    name: 'bluestone',
+    name: 'Bluestone',
   },
   {
     source: gunmetal,
-    name: 'gunmetal',
+    name: 'Gunmetal',
   },
   {
     source: charcoal,
-    name: 'charcoal',
+    name: 'Charcoal',
   },
   {
     source: jet_black,
-    name: 'jet_black',
+    name: 'Jet Black',
   },
   {
     source: chocolate,
-    name: 'chocolate',
+    name: 'Chocolate',
   },
   {
     source: brick_red,
-    name: 'brick_red',
+    name: 'Brick Red',
   },
   {
     source: dark_terracotta,
-    name: 'dark_terracotta',
+    name: 'Dark Terracotta',
   },
 ];
 

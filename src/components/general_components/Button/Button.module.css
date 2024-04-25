@@ -1,0 +1,26 @@
+.button_div {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: var(--accent-colour);
+  color: #fff;
+  text-decoration: none;
+  padding: 2rem 4rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+  text-transform: lowercase;
+}
+
+.button:hover {
+  background-color: var(--accent-hover-colour);
+  transform: scale(0.97);
+}
