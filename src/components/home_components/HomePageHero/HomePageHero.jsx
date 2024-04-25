@@ -3,7 +3,7 @@ import styles from './HomePageHero.module.css';
 
 function HomePageHero() {
   return (
-    <div className={styles.hero_wrapper}>
+    <section className={styles.hero_wrapper}>
       <div className={`container ${styles.hero_text_div}`}>
         <h1>
           Transforming Surfaces, Elevating Spaces: Unleash the Artistry of
@@ -15,7 +15,7 @@ function HomePageHero() {
           REQUEST A FREE QUOTE
         </a>
       </div>
-    </div>
+    </section>
   );
 }
 

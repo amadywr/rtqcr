@@ -16,6 +16,7 @@ html {
   --background-colour: #f8f9fa;
   --accent-colour: #fc3434;
   --accent-hover-colour: #c70000;
+  --accent-hover-colour-light: #ffd0d0;
   --secondary-colour: #f1f3f5;
   --secondary-dark-colour: #e9ecef;
   --text-colour: #151515;
@@ -107,17 +108,34 @@ body {
 }
 
 .margin-top-mini {
-  margin-top: 5rem;
+  margin-top: 5rem !important;
 }
 
 .margin-top-small {
-  margin-top: 10rem;
+  margin-top: 10rem !important;
 }
 
 .margin-top-medium {
-  margin-top: 15rem;
+  margin-top: 15rem !important;
 }
 
 .margin-top-large {
-  margin-top: 20rem;
+  margin-top: 20rem !important;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .mini-container {
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .mini-mini-container {
+    width: 65vw;
+    margin: 0 auto;
+  }
 }

@@ -4,6 +4,8 @@ import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/sealing/why';
 import Info from '../../components/general_components/Info/Info';
 import ColourGrid from '../../components/general_components/ColourGrid/ColourGrid';
+import colours1 from '../../assets/sealing/colours1';
+import colours2 from '../../assets/sealing/colours2';
 
 function ConcreteSealing() {
   return (
@@ -31,7 +33,7 @@ function ConcreteSealing() {
         }
       />
 
-      <ColourGrid />
+      <ColourGrid colours1={colours1} colours2={colours2} />
     </div>
   );
 }

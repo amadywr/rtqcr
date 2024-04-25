@@ -1,15 +1,20 @@
 import { useState } from 'react';
 import Header from '../Header/Header';
 import styles from './ColourGrid.module.css';
-import colours1 from '../../../assets/sealing/colours1';
-import colours2 from '../../../assets/sealing/colours2';
 import Button from '../Button/Button';
 
-function ColourGrid() {
+function ColourGrid({
+  wantHeader = true,
+  colours1,
+  colours2,
+  marginTop = 'margin-top-medium',
+}) {
   const [viewMore, setViewMore] = useState(false);
   return (
-    <div className={`mini-container`}>
-      <Header headerText={'Choose your colour'} headerTextRight={false} />
+    <div className={`mini-container ${marginTop}`}>
+      {wantHeader && (
+        <Header headerText={'Choose your colour'} headerTextRight={false} />
+      )}
 
       <div className={`margin-top-mini ${styles.grid}`}>
         {colours1.map((colour, i) => (
@@ -22,16 +27,18 @@ function ColourGrid() {
           </div>
         ))}
 
-        {viewMore &&
-          colours2.map((colour, i) => (
-            <div className={styles.item} key={i}>
-              <div
-                className={styles.colour}
-                style={{ backgroundColor: `${colour.colour}` }}
-              ></div>
-              <p className={styles.name}>{colour.name}</p>
-            </div>
-          ))}
+        {colours2
+          ? viewMore &&
+            colours2.map((colour, i) => (
+              <div className={styles.item} key={i}>
+                <div
+                  className={styles.colour}
+                  style={{ backgroundColor: `${colour.colour}` }}
+                ></div>
+                <p className={styles.name}>{colour.name}</p>
+              </div>
+            ))
+          : ''}
       </div>
 
       <Button state={viewMore} setState={setViewMore}>
