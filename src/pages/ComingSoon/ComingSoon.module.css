@@ -83,7 +83,7 @@
   width: 100%;
 }
 
-h1 {
+.text_div h1 {
   color: #fff;
   font-size: 5rem;
   font-weight: 600;
@@ -112,7 +112,7 @@ h1 {
     max-height: 70vh;
   }
 
-  h1 {
+  .text_div h1 {
     font-size: 3rem;
   }
 }
