@@ -6,7 +6,7 @@ function ComingSoon() {
   return (
     <div className={styles.bg}>
       <div className={`${styles.header}`}>
-        <div className={`container ${styles.nav}`}>
+        <div className={`${styles.container} ${styles.nav}`}>
           <a href="/">
             <img src={logo} alt="logo" className={styles.logo} />
           </a>
@@ -19,7 +19,7 @@ function ComingSoon() {
           </a>
         </div>
       </div>
-      <div className={styles.container}>
+      <div className={styles.text_div}>
         <h1>COMING SOON</h1>
       </div>
     </div>
