@@ -1,0 +1,33 @@
+.btns_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vertical_line {
+  height: 5rem;
+  width: 2px;
+  background-color: var(--accent-colour);
+}
+
+.btns_div button {
+  height: 5rem;
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1.4rem;
+  flex: 1;
+  width: 100%;
+  padding: 2rem;
+}
+
+.btns_div button:hover {
+  cursor: pointer;
+}
+
+.btn_clicked {
+  background-color: var(--accent-colour) !important;
+  color: #fff;
+  font-weight: 900;
+}

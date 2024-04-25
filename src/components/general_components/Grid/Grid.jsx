@@ -3,7 +3,15 @@ import styles from './Grid.module.css';
 import Header from '../Header/Header';
 import Modal from '../Modal/Modal';
 
-function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
+function Grid({
+  wantHeader = true,
+  headerText,
+  headerTextRight,
+  gridList1,
+  gridList2,
+  btnText = 'grid items',
+  marginTop = 'margin-top-medium',
+}) {
   const [viewMore, setViewMore] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImageSource, setModalImageSource] = useState('');
@@ -16,8 +24,10 @@ function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
   }
 
   return (
-    <div className={`mini-container margin-top-medium`}>
-      <Header headerText={headerText} headerTextRight={headerTextRight} />
+    <div className={`mini-container ${marginTop}`}>
+      {wantHeader && (
+        <Header headerText={headerText} headerTextRight={headerTextRight} />
+      )}
 
       <div className={styles.grid}>
         {Array.from({ length: gridList1.length }).map((_, i) => (
@@ -32,27 +42,35 @@ function Grid({ headerText, headerTextRight, gridList1, gridList2, btnText }) {
         ))}
       </div>
 
-      <div
-        className={`${styles.grid} ${viewMore ? '' : 'hidden'}`}
-        style={{ marginTop: '3rem' }}
-      >
-        {Array.from({ length: gridList2.length }).map((_, i) => (
-          <div className={styles.item} key={i}>
-            <img
-              src={gridList2[i].source}
-              alt={gridList2[i].name}
-              onClick={() => getImage(gridList2[i])}
-            />
-            <p>{gridList2[i].name}</p>
-          </div>
-        ))}
-      </div>
+      {gridList2 ? (
+        <div
+          className={`${styles.grid} ${viewMore ? '' : 'hidden'}`}
+          style={{ marginTop: '3rem' }}
+        >
+          {Array.from({ length: gridList2.length }).map((_, i) => (
+            <div className={styles.item} key={i}>
+              <img
+                src={gridList2[i].source}
+                alt={gridList2[i].name}
+                onClick={() => getImage(gridList2[i])}
+              />
+              <p>{gridList2[i].name}</p>
+            </div>
+          ))}
+        </div>
+      ) : (
+        ''
+      )}
 
-      <div className="button_div">
-        <button className="button" onClick={() => setViewMore(!viewMore)}>
-          {viewMore ? `View less ${btnText}` : `View more ${btnText}`}
-        </button>
-      </div>
+      {gridList2 ? (
+        <div className="button_div">
+          <button className="button" onClick={() => setViewMore(!viewMore)}>
+            {viewMore ? `View less ${btnText}` : `View more ${btnText}`}
+          </button>
+        </div>
+      ) : (
+        ''
+      )}
 
       {modalOpen && (
         <Modal

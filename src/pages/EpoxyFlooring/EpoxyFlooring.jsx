@@ -12,11 +12,13 @@ import gallery2 from '../../assets/epoxy/gallery/gallery2';
 import Gallery from '../../components/general_components/Gallery/Gallery';
 import MiddleText from '../../components/general_components/MiddleText/MiddleText';
 import FAQs from '../../components/general_components/FAQs/FAQs';
+import MultiGrid from '../../components/general_components/MultiGrid/MultiGrid';
 
 function EpoxyFlooring() {
   return (
     <div>
-      <Hero
+      <MultiGrid />
+      {/* <Hero
         text={'Epoxy Flooring'}
         info={
           'Welcome to a world where durability meets aesthetics – introducing our top-notch epoxy flooring solutions! Elevate your surroundings with a flooring choice that not only withstands the test of time but also adds a touch of modern sophistication to any space'
@@ -56,7 +58,7 @@ function EpoxyFlooring() {
 
       <MiddleText />
 
-      <FAQs faqs={epoxyFAQs} />
+      <FAQs faqs={epoxyFAQs} /> */}
     </div>
   );
 }
