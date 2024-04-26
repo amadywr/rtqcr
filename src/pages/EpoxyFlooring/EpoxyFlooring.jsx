@@ -45,7 +45,7 @@ function EpoxyFlooring() {
         gallery1={gallery1}
         gallery2={gallery2}
       />
-      {/* as */}
+
       <MiddleText />
 
       <FAQs faqs={epoxyFAQs} />
