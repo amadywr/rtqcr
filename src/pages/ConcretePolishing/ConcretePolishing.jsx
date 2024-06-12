@@ -3,6 +3,9 @@ import Hero from '../../components/general_components/Hero/Hero';
 import heroImg from '../../assets/polishing/hero.jpg';
 import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/polishing/why';
+import MiddleText from '../../components/general_components/MiddleText/MiddleText';
+import FAQs from '../../components/general_components/FAQs/FAQs';
+import polishingFAQs from '../../assets/polishing/polishingFAQs';
 
 function ConcretePolishing() {
   return (
@@ -20,6 +23,10 @@ function ConcretePolishing() {
         headerTextRight={false}
         why={whyList}
       />
+
+      <MiddleText />
+
+      <FAQs faqs={polishingFAQs} />
     </div>
   );
 }

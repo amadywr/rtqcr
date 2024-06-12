@@ -42,7 +42,7 @@ function ColourGrid({
       </div>
 
       <Button state={viewMore} setState={setViewMore}>
-        View more colours
+        {viewMore ? 'View less colours' : 'View more colours'}
       </Button>
     </div>
   );

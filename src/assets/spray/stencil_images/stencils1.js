@@ -26,39 +26,39 @@ const stencils1 = [
   },
   {
     source: convict_brick,
-    name: 'convict_brick',
+    name: 'Convict Brick',
   },
   {
     source: brick,
-    name: 'brick',
+    name: 'Brick',
   },
   {
     source: bushrock,
-    name: 'bushrock',
+    name: 'Bushrock',
   },
   {
     source: classic_herringbone,
-    name: 'classic_herringbone',
+    name: 'Classic Herringbone',
   },
   {
     source: diamond_tile,
-    name: 'diamond_tile',
+    name: 'Diamond Tile',
   },
   {
     source: european_fan,
-    name: 'european_fan',
+    name: 'European Fan',
   },
   {
     source: basket_weave,
-    name: 'basket_weave',
+    name: 'Basket Weave',
   },
   {
     source: quarry_tile,
-    name: 'quarry_tile',
+    name: 'Quarry Tile',
   },
   {
     source: ashlar_slate,
-    name: 'ashlar_slate',
+    name: 'Ashlar Slate',
   },
 ];
 

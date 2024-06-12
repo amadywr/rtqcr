@@ -12,7 +12,7 @@ function Grid({
   btnText = 'grid items',
   marginTop = 'margin-top-medium',
 }) {
-  const [viewMore, setViewMore] = useState(false);
+  // const [viewMore, setViewMore] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImageSource, setModalImageSource] = useState('');
   const [caption, setCaption] = useState('');
@@ -42,7 +42,7 @@ function Grid({
         ))}
       </div>
 
-      {gridList2 ? (
+      {/* {gridList2 ? (
         <div
           className={`${styles.grid} ${viewMore ? '' : 'hidden'}`}
           style={{ marginTop: '3rem' }}
@@ -60,9 +60,9 @@ function Grid({
         </div>
       ) : (
         ''
-      )}
+      )} */}
 
-      {gridList2 ? (
+      {/* {gridList2 ? (
         <div className="button_div">
           <button className="button" onClick={() => setViewMore(!viewMore)}>
             {viewMore ? `View less ${btnText}` : `View more ${btnText}`}
@@ -70,7 +70,7 @@ function Grid({
         </div>
       ) : (
         ''
-      )}
+      )} */}
 
       {modalOpen && (
         <Modal

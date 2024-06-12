@@ -8,26 +8,26 @@ import wine_red_oxide from './wine_red_oxide.png';
 export const quartz_shield_style1 = [
   {
     source: artic_perwinkle,
-    name: 'artic_perwinkle',
+    name: 'Artic Perwinkle',
   },
   {
     source: grain_merino,
-    name: 'grain_merino',
+    name: 'Grain Merino',
   },
   {
     source: iron_dark_grey,
-    name: 'iron_dark_grey',
+    name: 'Iron Dark Grey',
   },
   {
     source: iron_pipeline_grey,
-    name: 'iron_pipeline_grey',
+    name: 'Iron Pipeline Grey',
   },
   {
     source: silver_pipeline_grey,
-    name: 'silver_pipeline_grey',
+    name: 'Silver Pipeline Grey',
   },
   {
     source: wine_red_oxide,
-    name: 'wine_red_oxide',
+    name: 'Wine Red Oxide',
   },
 ];

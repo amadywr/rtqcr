@@ -11,6 +11,8 @@ import { grip_finish_style1 } from '../../../assets/epoxy/styles/grip_finish/gri
 import { quartz_shield_style1 } from '../../../assets/epoxy/styles/quartz_shield/quartz_shield_style';
 import ColourGrid from '../ColourGrid/ColourGrid';
 import { plain_epoxy_colour1 } from '../../../assets/epoxy/styles/plain_epoxy/plain_epoxy';
+import { glitter_style1 } from '../../../assets/epoxy/styles/glitter/glitter_style';
+import { metallic_style1 } from '../../../assets/epoxy/styles/metallic/metallic_style';
 
 function MultiGrid() {
   const [gridName, setGridName] = useState('ultra_flake');
@@ -132,6 +134,22 @@ function MultiGrid() {
         <ColourGrid
           wantHeader={false}
           colours1={plain_epoxy_colour1}
+          marginTop={'margin-top-small'}
+        />
+      )}
+
+      {gridName === 'glitter' && (
+        <Grid
+          wantHeader={false}
+          gridList1={glitter_style1}
+          marginTop={'margin-top-small'}
+        />
+      )}
+
+      {gridName === 'metallic' && (
+        <Grid
+          wantHeader={false}
+          gridList1={metallic_style1}
           marginTop={'margin-top-small'}
         />
       )}

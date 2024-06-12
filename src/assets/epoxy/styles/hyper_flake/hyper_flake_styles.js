@@ -11,77 +11,77 @@ import silver_stone_neutral_grey from './silver_stone_neutral_grey.png';
 export const hyper_flake_styles1 = [
   {
     source: basalt_dark,
-    name: 'basalt_dark',
+    name: 'Basalt Dark',
   },
   {
     source: basalt_pipeline_grey,
-    name: 'basalt_pipeline_grey',
+    name: 'Basalt Pipeline Grey',
   },
   {
     source: coral_pipeline_grey,
-    name: 'coral_pipeline_grey',
+    name: 'Coral Pipeline Grey',
   },
   {
     source: quarry_pipeline_grey,
-    name: 'quarry_pipeline_grey',
+    name: 'Quarry Pipeline Grey',
   },
   {
     source: river_stone_neutral_grey,
-    name: 'river_stone_neutral_grey',
+    name: 'River Stone Neutral Grey',
   },
   {
     source: river_stone_pipeline_grey,
-    name: 'river_stone_pipeline_grey',
+    name: 'River Stone Pipeline Grey',
   },
   {
     source: sandstone_merino,
-    name: 'sandstone_merino',
+    name: 'Sandstone Merino',
   },
   {
     source: sandstone_neutral_grey,
-    name: 'sandstone_neutral_grey',
+    name: 'Sandstone Neutral Grey',
   },
   {
     source: silver_stone_neutral_grey,
-    name: 'silver_stone_neutral_grey',
+    name: 'Silver Stone Neutral Grey',
   },
 ];
 
 export const hyper_flake_styles2 = [
   {
     source: basalt_dark,
-    name: 'basalt_dark',
+    name: 'Basalt Dark',
   },
   {
     source: basalt_pipeline_grey,
-    name: 'basalt_pipeline_grey',
+    name: 'Basalt Pipeline Grey',
   },
   {
     source: coral_pipeline_grey,
-    name: 'coral_pipeline_grey',
+    name: 'Coral Pipeline Grey',
   },
   {
     source: quarry_pipeline_grey,
-    name: 'quarry_pipeline_grey',
+    name: 'Quarry Pipeline Grey',
   },
   {
     source: river_stone_neutral_grey,
-    name: 'river_stone_neutral_grey',
+    name: 'River Stone Neutral Grey',
   },
   {
     source: river_stone_pipeline_grey,
-    name: 'river_stone_pipeline_grey',
+    name: 'River Stone Pipeline Grey',
   },
   {
     source: sandstone_merino,
-    name: 'sandstone_merino',
+    name: 'Sandstone Merino',
   },
   {
     source: sandstone_neutral_grey,
-    name: 'sandstone_neutral_grey',
+    name: 'Sandstone Neutral Grey',
   },
   {
     source: silver_stone_neutral_grey,
-    name: 'silver_stone_neutral_grey',
+    name: 'Silver Stone Neutral Grey',
   },
 ];
