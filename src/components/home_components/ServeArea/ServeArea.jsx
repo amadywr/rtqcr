@@ -5,8 +5,8 @@ import { MdFactory } from 'react-icons/md';
 
 function ServeArea() {
   return (
-    <div className={styles.serve_area_wrapper}>
-      <div className={`${styles.serve_area_div} mini-container`}>
+    <section className={styles.serve_area_wrapper}>
+      <div className={`mini-container ${styles.serve_area_div}`}>
         <h1>Areas we serve</h1>
         <p>
           Situated in Western Sydney, RTQ Concrete Resurfacing is your premier
@@ -34,7 +34,7 @@ function ServeArea() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

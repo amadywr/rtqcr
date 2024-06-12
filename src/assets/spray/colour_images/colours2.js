@@ -10,35 +10,35 @@ import light_terracotta from './light_terracotta.png';
 const colours2 = [
   {
     source: light_terracotta,
-    name: 'light_terracotta',
+    name: 'Light Terracotta',
   },
   {
     source: sandstone,
-    name: 'sandstone',
+    name: 'Sandstone',
   },
   {
     source: chestnut,
-    name: 'chestnut',
+    name: 'Chestnut',
   },
   {
     source: lite_mocha,
-    name: 'lite_mocha',
+    name: 'Lite Mocha',
   },
   {
     source: merino,
-    name: 'merino',
+    name: 'Merino',
   },
   {
     source: sandy_beige,
-    name: 'sandy_beige',
+    name: 'Sandy Beige',
   },
   {
     source: cream,
-    name: 'cream',
+    name: 'Cream',
   },
   {
     source: white,
-    name: 'white',
+    name: 'White',
   },
 ];
 

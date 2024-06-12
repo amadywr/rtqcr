@@ -3,15 +3,13 @@ import Hero from '../../components/general_components/Hero/Hero';
 import heroImg from '../../assets/epoxy/hero.jpg';
 import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/epoxy/Why';
-import Grid from '../../components/general_components/Grid/Grid';
 import Info from '../../components/general_components/Info/Info';
-import styles1 from '../../assets/epoxy/styles/styles1';
-import styles2 from '../../assets/epoxy/styles/styles2';
 import gallery1 from '../../assets/epoxy/gallery/gallery1';
 import gallery2 from '../../assets/epoxy/gallery/gallery2';
 import Gallery from '../../components/general_components/Gallery/Gallery';
 import MiddleText from '../../components/general_components/MiddleText/MiddleText';
 import FAQs from '../../components/general_components/FAQs/FAQs';
+import MultiGrid from '../../components/general_components/MultiGrid/MultiGrid';
 
 function EpoxyFlooring() {
   return (
@@ -38,13 +36,7 @@ function EpoxyFlooring() {
         headerTextRight={true}
       />
 
-      <Grid
-        headerText={'Choose your style'}
-        headerTextRight={false}
-        btnText={'styles'}
-        gridList1={styles1}
-        gridList2={styles2}
-      />
+      <MultiGrid />
 
       <Gallery
         headerText={'Gallery'}

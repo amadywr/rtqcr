@@ -9,7 +9,7 @@ import styles from './Services.module.css';
 function Services() {
   return (
     <section
-      className={`${styles.services_section} mini-mini-container`}
+      className={`mini-mini-container ${styles.services_section}`}
       id="ourServices"
     >
       <h1>Our services</h1>

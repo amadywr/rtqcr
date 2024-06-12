@@ -17,60 +17,59 @@ import rosette from './rosette.png';
 const stencils2 = [
   {
     source: flagstone,
-    name: 'flagstone',
+    name: 'Flagstone',
   },
   {
     source: english_cobble,
-    name: 'english_cobble',
+    name: 'English Cobble',
   },
   {
     source: regal_tile,
-    name: 'regal_tile',
+    name: 'Regal Tile',
   },
   {
     source: keystone,
-    name: 'keystone',
+    name: 'Keystone',
   },
   {
     source: random_bluestone,
-    name: 'random_bluestone',
+    name: 'Random Bluestone',
   },
   {
     source: cobblestone,
-    name: 'cobblestone',
+    name: 'Cobblestone',
   },
   {
     source: antique_tile,
-    name: 'antique_tile',
+    name: 'Antique Tile',
   },
-
   {
     source: large_tile,
-    name: 'large_tile',
+    name: 'Large Tile',
   },
   {
     source: keystone_header,
-    name: 'keystone_header',
+    name: 'Keystone Header',
   },
   {
     source: brick_header,
-    name: 'brick_header',
+    name: 'Brick Header',
   },
   {
     source: cobble_header,
-    name: 'cobble_header',
+    name: 'Cobble Header',
   },
   {
     source: large_tile_header,
-    name: 'large_tile_header',
+    name: 'Large Tile Header',
   },
   {
     source: star_compass,
-    name: 'star_compass',
+    name: 'Star Compass',
   },
   {
     source: rosette,
-    name: 'rosette',
+    name: 'Rosette',
   },
 ];
 

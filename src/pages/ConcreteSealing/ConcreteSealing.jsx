@@ -4,6 +4,11 @@ import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/sealing/why';
 import Info from '../../components/general_components/Info/Info';
 import ColourGrid from '../../components/general_components/ColourGrid/ColourGrid';
+import colours1 from '../../assets/sealing/colours1';
+import colours2 from '../../assets/sealing/colours2';
+import MiddleText from '../../components/general_components/MiddleText/MiddleText';
+import FAQs from '../../components/general_components/FAQs/FAQs';
+import sealingFAQs from '../../assets/sealing/sealingFAQs';
 
 function ConcreteSealing() {
   return (
@@ -31,7 +36,11 @@ function ConcreteSealing() {
         }
       />
 
-      <ColourGrid />
+      <ColourGrid colours1={colours1} colours2={colours2} />
+
+      <MiddleText />
+
+      <FAQs faqs={sealingFAQs} />
     </div>
   );
 }

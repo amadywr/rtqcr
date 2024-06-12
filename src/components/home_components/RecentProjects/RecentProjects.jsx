@@ -19,7 +19,7 @@ function RecentProjects() {
   }
 
   return (
-    <section className={`${styles.recent_projects_section} mini-container`}>
+    <section className={`mini-container ${styles.recent_projects_section}`}>
       <h1>Recent Projects</h1>
 
       <Swiper

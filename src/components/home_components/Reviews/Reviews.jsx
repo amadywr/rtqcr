@@ -8,7 +8,7 @@ import 'swiper/css/bundle';
 
 function Reviews() {
   return (
-    <section className={`${styles.reviews_section} mini-container`}>
+    <section className={`mini-container ${styles.reviews_section}`}>
       <h1>Google Reviews</h1>
       <Swiper
         pagination={{ el: '.slider-pagination', clickable: true }}

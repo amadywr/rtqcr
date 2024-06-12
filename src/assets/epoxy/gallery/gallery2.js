@@ -1,23 +1,23 @@
-import img10 from './spray_10.jpg';
-import img11 from './spray_11.jpg';
-import img12 from './spray_12.jpg';
-import img13 from './spray_13.jpg';
-import img14 from './spray_14.jpg';
-import img15 from './spray_15.jpg';
-import img16 from './spray_16.jpg';
-import img17 from './spray_17.jpg';
-import img18 from './spray_18.jpg';
+import img1 from './epoxy_1.jpg';
+import img2 from './epoxy_2.jpg';
+import img3 from './epoxy_3.jpg';
+import img4 from './epoxy_4.jpg';
+import img5 from './epoxy_5.jpg';
+import img6 from './epoxy_6.jpg';
+import img7 from './epoxy_7.jpg';
+import img8 from './epoxy_8.jpg';
+import img9 from './epoxy_9.jpg';
 
 const gallery2 = [
-  { id: 10, source: img10 },
-  { id: 11, source: img11 },
-  { id: 12, source: img12 },
-  { id: 13, source: img13 },
-  { id: 14, source: img14 },
-  { id: 15, source: img15 },
-  { id: 16, source: img16 },
-  { id: 17, source: img17 },
-  { id: 18, source: img18 },
+  { id: 1, source: img1 },
+  { id: 2, source: img2 },
+  { id: 3, source: img3 },
+  { id: 4, source: img4 },
+  { id: 5, source: img5 },
+  { id: 6, source: img6 },
+  { id: 7, source: img7 },
+  { id: 8, source: img8 },
+  { id: 9, source: img9 },
 ];
 
 export default gallery2;

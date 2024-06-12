@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../../../assets/logo.webp';
+import logo from '../../../assets/logo.png';
 import styles from './Navbar.module.css';
 import Dropdown from '../Dropdown/Dropdown';
 
