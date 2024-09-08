@@ -47,13 +47,3 @@
   font-style: italic;
   font-size: 1.5rem !important;
 }
-
-@media screen and (max-width: 768px) {
-  .icons_div {
-    justify-content: space-between;
-  }
-
-  .icon_item {
-    gap: 1rem;
-  }
-}

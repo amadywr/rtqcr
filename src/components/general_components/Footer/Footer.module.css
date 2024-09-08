@@ -6,8 +6,8 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 50px;
-  border-bottom: 2px solid var(--accent-colour);
+  padding: 5rem 5rem;
+  border-bottom: 0.2rem solid var(--accent-colour);
   padding-bottom: 10rem;
 }
 
@@ -67,18 +67,4 @@
 .signature a {
   color: var(--text-colour);
   font-weight: 600;
-}
-
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
-  .footer_section {
-    padding-top: 0rem;
-  }
-
-  .wrapper {
-    flex-direction: column;
-    gap: 10rem;
-  }
 }

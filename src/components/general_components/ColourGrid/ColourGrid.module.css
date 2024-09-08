@@ -6,7 +6,7 @@
 
 .item {
   background-color: var(--secondary-colour);
-  border-radius: 10px;
+  border-radius: 1rem;
   overflow: hidden;
 }
 

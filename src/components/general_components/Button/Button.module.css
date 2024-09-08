@@ -11,10 +11,10 @@
   text-decoration: none;
   padding: 2rem 4rem;
   font-size: 1.4rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: 0.5s;
   cursor: pointer;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05rem;
   outline: none;
   border: none;
   text-transform: lowercase;

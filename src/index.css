@@ -38,7 +38,6 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: var(--text-colour);
-  /* user-select: none; */
 }
 
 .container {
@@ -46,26 +45,16 @@ body {
   margin: 0 auto;
 }
 
-/* .container {
-  width: 2000px;
-  margin: 0 auto;
-} */
-
 .mini-container {
-  max-width: 1536px;
+  max-width: 153rem;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 5rem;
 }
 
-/* .mini-mini-container {
-  width: 50vw;
-  margin: 0 auto;
-} */
-
 .mini-mini-container {
-  max-width: 1280px;
+  max-width: 128rem;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 5rem;
 }
 
 .CTA {
@@ -75,10 +64,10 @@ body {
   text-decoration: none;
   padding: 2rem 4rem;
   font-size: 1.4rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: 0.5s;
   cursor: pointer;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05rem;
   outline: none;
   border: none;
 }
@@ -101,10 +90,10 @@ body {
   text-decoration: none;
   padding: 2rem 4rem;
   font-size: 1.4rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: 0.5s;
   cursor: pointer;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05rem;
   outline: none;
   border: none;
   text-transform: lowercase;
@@ -135,7 +124,7 @@ body {
   margin-top: 20rem !important;
 }
 
-/* swiper */
+/************** swiper **************/
 
 .swiper_wrapper {
   display: flex;
@@ -167,27 +156,10 @@ body {
   background-color: var(--accent-colour) !important;
 }
 
+/************** swiper **************/
+
 @media screen and (max-width: 1000px) {
   html {
     font-size: 9px; /* 62.5% */
-    scroll-behavior: smooth;
   }
 }
-
-/* @media screen and (max-width: 756px) {
-  .container {
-    width: 90vw;
-  }
-
-  html {
-    font-size: 8px;
-  }
-
-  .mini-mini-container {
-    width: 90vw;
-  }
-
-  .mini-container {
-    width: 90vw;
-  }
-} */

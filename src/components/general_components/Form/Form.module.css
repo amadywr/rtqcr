@@ -18,7 +18,7 @@
 
 .input_fields {
   background: transparent;
-  border: 2px solid #ced4da;
+  border: 0.2rem solid #ced4da;
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   font-family: 'Inter';
@@ -41,7 +41,7 @@
   font-weight: 600;
   border: none;
   /* padding: 2rem 0; */
-  border-radius: 5px;
+  border-radius: 0.5rem;
   font-size: 1.5rem;
   margin-top: 5rem;
   transition: 0.5s;
@@ -55,25 +55,4 @@
 .submit:hover {
   transform: scale(0.97);
   background-color: var(--accent-hover-colour);
-}
-
-@media screen and (max-width: 1000px) {
-  .right_div {
-    width: 40rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .title {
-    margin-top: 4rem;
-  }
-
-  .right_div {
-    width: 100%;
-    order: -1;
-  }
-
-  .form_container {
-    order: -1;
-  }
 }

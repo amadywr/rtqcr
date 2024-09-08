@@ -8,7 +8,7 @@
 .item {
   background-color: var(--secondary-colour);
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1rem;
   overflow: hidden;
   transition: 0.5s;
   cursor: pointer;

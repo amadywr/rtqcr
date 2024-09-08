@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 3rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: 0.5s;
   outline: none;
 }
