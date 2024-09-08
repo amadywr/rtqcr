@@ -35,6 +35,7 @@ function RecentProjects() {
         modules={[Pagination]}
         pagination={{ clickable: true, el: '.slider-pagination' }}
         grabCursor={true}
+        spaceBetween={10}
       >
         {recentProjects.map((project, index) => (
           <SwiperSlide key={index}>

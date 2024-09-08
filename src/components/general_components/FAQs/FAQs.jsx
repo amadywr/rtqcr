@@ -6,7 +6,7 @@ function FAQs({
 }) {
   return (
     <section
-      className={`mini-container margin-top-medium ${styles.faqs_section}`}
+      className={`mini-mini-container margin-top-medium ${styles.faqs_section}`}
     >
       <h1>FAQs</h1>
       <div className={styles.faqs_wrapper}>

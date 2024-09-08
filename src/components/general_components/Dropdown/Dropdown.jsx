@@ -11,7 +11,7 @@ function Dropdown() {
       onClick={() => setIsClicked(!isClicked)}
     >
       <a href="/spray-crete-floor" className={styles.dropdown_item}>
-        Spray-Crete Floor
+        Spray-Crete Flooring
       </a>
       <a href="/epoxy_flooring" className={styles.dropdown_item}>
         Epoxy Flooring

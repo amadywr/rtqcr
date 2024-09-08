@@ -13,13 +13,19 @@
   box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.1);
+
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  align-items: center;
+  /* padding-top: 2rem;
+  padding-bottom: 1rem; */
 }
 
 .navbar_menu {
@@ -30,7 +36,7 @@
 
 .navbar_menu_item {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: var(--text-colour);
   padding: 1.5rem 1.8rem;
@@ -59,4 +65,102 @@
   font-weight: 800;
   color: var(--accent-colour);
   border-bottom: 0.3rem solid var(--accent-colour);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.5rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--accent-colour);
+}
+
+.hamburger_services_item {
+  display: none;
+}
+
+.hamburger_bottom_div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar_menu_item_phone_inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.phone_icon {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 680px) {
+  .hamburger_services_item {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(0.8rem) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-0.8rem) rotate(-45deg);
+  }
+
+  .navbar_menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-colour);
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .navbar_menu.active {
+    left: 0;
+  }
+
+  .navbar_menu {
+    gap: 2rem;
+  }
+
+  .navbar_menu_item {
+    font-size: 2.2rem;
+
+    font-weight: 600;
+  }
+
+  .services_dropdown {
+    display: none;
+  }
+
+  .hamburger_bottom_div {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 10rem 0;
+  }
+
+  .navbar_menu_item_phone {
+    margin-left: 0;
+  }
 }

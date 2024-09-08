@@ -7,7 +7,7 @@ function Project({ project, getImage, setCaption }) {
         <div className={styles.left}>
           <div className={styles.details_header}>
             <p className={styles.suburb}>{project.suburb}</p>
-            <h1 className={styles.project_type}>{project.type}</h1>
+            <h2 className={styles.project_type}>{project.type}</h2>
           </div>
           <div className={styles.details_body}>
             {project.details.map((item, index) => (

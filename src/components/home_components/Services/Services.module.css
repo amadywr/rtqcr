@@ -48,3 +48,16 @@
   font-size: 1.4rem;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 979px) {
+  .services_div {
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .services_div {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

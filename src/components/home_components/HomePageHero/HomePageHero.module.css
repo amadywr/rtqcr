@@ -21,13 +21,49 @@
 }
 
 .hero_text_div h1 {
-  width: 45%;
+  width: 80rem;
   color: #fff;
   font-weight: 400;
-  font-size: 2.1rem;
+  font-size: 2.4rem;
 }
 
 .hero_text_div h1 span {
   font-weight: 600;
   color: var(--accent-colour);
+}
+
+@media screen and (max-width: 979px) {
+  .hero_text_div {
+    padding-bottom: 10rem;
+  }
+
+  .hero_text_div h1 {
+    width: 60rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero_text_div h1 {
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .hero_text_div h1 {
+    width: 41rem;
+    font-size: 2.2rem;
+  }
+
+  .hero_wrapper {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0)
+      ),
+      url('../../../assets/home/hero.jpg');
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

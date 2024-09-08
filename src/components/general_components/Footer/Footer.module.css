@@ -6,9 +6,9 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 5rem;
-  border-bottom: 0.2rem solid var(--accent-colour);
+  padding-top: 5rem;
   padding-bottom: 10rem;
+  border-bottom: 0.2rem solid var(--accent-colour);
 }
 
 .left_div {
@@ -67,4 +67,12 @@
 .signature a {
   color: var(--text-colour);
   font-weight: 600;
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
 }

@@ -24,6 +24,7 @@
   font-family: 'Inter';
   outline: none;
   text-transform: capitalize;
+  font-size: 1.4rem;
 }
 
 .input_fields:focus {
@@ -40,7 +41,6 @@
   color: #fff;
   font-weight: 600;
   border: none;
-  /* padding: 2rem 0; */
   border-radius: 0.5rem;
   font-size: 1.5rem;
   margin-top: 5rem;
@@ -50,9 +50,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 1rem; */
 }
 .submit:hover {
   transform: scale(0.97);
   background-color: var(--accent-hover-colour);
+}
+
+@media screen and (max-width: 979px) {
+  .right_div {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .right_div {
+    width: 100%;
+  }
+
+  .form_container {
+    order: -1;
+  }
 }

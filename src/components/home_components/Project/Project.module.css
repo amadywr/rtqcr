@@ -106,3 +106,28 @@
   bottom: -1.2rem;
   right: 5rem;
 }
+
+@media screen and (max-width: 680px) {
+  .container {
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .img_before_wrapper {
+    display: block;
+    width: 37rem;
+  }
+
+  .img_after_wrapper {
+    display: block;
+    width: 37rem;
+  }
+
+  .img_before_wrapper img {
+    width: 100%;
+  }
+
+  .img_after_wrapper img {
+    width: 100%;
+  }
+}

@@ -124,7 +124,7 @@ body {
   margin-top: 20rem !important;
 }
 
-/************** swiper **************/
+/************** SWIPER START **************/
 
 .swiper_wrapper {
   display: flex;
@@ -156,10 +156,58 @@ body {
   background-color: var(--accent-colour) !important;
 }
 
-/************** swiper **************/
+/************** SWIPER END **************/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   html {
     font-size: 9px; /* 62.5% */
   }
 }
+
+/************** MEDIA QUERT START **************/
+
+/* screen sizes: 
+- 1200px
+- 979px
+- 768px
+- 680 */
+
+@media screen and (max-width: 979px) {
+  html {
+    font-size: 8.5px; /* 62.5% */
+  }
+
+  .mini-container {
+    padding: 0 3rem;
+  }
+
+  .mini-mini-container {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px; /* 62.5% */
+  }
+
+  .mini-mini-container {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .container {
+    width: 89vw;
+  }
+
+  .mini-container {
+    padding: 0 2rem;
+  }
+
+  .mini-mini-container {
+    padding: 0 1.5rem;
+  }
+}
+
+/************** MEDIA QUERT END **************/
