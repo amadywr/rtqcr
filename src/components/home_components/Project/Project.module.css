@@ -106,3 +106,35 @@
   bottom: -1.2rem;
   right: 5rem;
 }
+
+/* @media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .left {
+    gap: 3rem;
+  }
+
+  .right {
+    gap: 3rem;
+  }
+
+  .right img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .img_before_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_after_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+} */

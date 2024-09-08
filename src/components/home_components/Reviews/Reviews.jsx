@@ -1,20 +1,29 @@
-import styles from './Reviews.module.css';
-import { RiStarSFill } from 'react-icons/ri';
-import { Navigation, Pagination } from 'swiper/modules';
+import { useRef } from 'react';
+
+import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import styles from './Reviews.module.css';
+
 import googleLogoImg from '../../../assets/home/google_logo.png';
 
-import 'swiper/css/bundle';
+import { RiStarSFill } from 'react-icons/ri';
+import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 
 function Reviews() {
+  const swiperRef = useRef(null);
+
   return (
     <section className={`mini-container ${styles.reviews_section}`}>
       <h1>Google Reviews</h1>
       <Swiper
+        ref={swiperRef}
+        modules={[Pagination]}
         pagination={{ el: '.slider-pagination', clickable: true }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
         grabCursor={true}
+        spaceBetween={30}
       >
         <SwiperSlide>
           <div className={`${styles.cards_div}`}>
@@ -222,8 +231,16 @@ function Reviews() {
           </div>
         </SwiperSlide>
 
-        <div className="pagination-wrapper">
+        <div className={`swiper_wrapper `}>
+          <div onClick={() => swiperRef.current.swiper.slidePrev()}>
+            <SlArrowLeft className={`icons `} />
+          </div>
+
           <div className="slider-pagination"></div>
+
+          <div onClick={() => swiperRef.current.swiper.slideNext()}>
+            <SlArrowRight className={`icons`} />
+          </div>
         </div>
       </Swiper>
     </section>

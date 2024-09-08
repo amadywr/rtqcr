@@ -60,17 +60,19 @@ function Form() {
     });
 
   return (
-    <div className={styles.right_div}>
-      <form action="" ref={form} onSubmit={sendEmail}>
-        <input
-          type="text"
-          name="customer_name"
-          id="customer_name"
-          placeholder="Name"
-          className={styles.input_fields}
-          required
-        />
-        {/* <input
+    <div className={styles.form_container}>
+      <h1 className={styles.title}>Enquiry</h1>
+      <div className={styles.right_div}>
+        <form action="" ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="customer_name"
+            id="customer_name"
+            placeholder="Name"
+            className={styles.input_fields}
+            required
+          />
+          {/* <input
           type="email"
           name="customer_email"
           id="customer_email"
@@ -78,47 +80,48 @@ function Form() {
           className={styles.input_fields}
           required
         /> */}
-        <input
-          type="tel"
-          name="customer_phone"
-          id="customer_phone"
-          pattern="[0-9]*"
-          inputMode="numeric"
-          placeholder="Phone"
-          className={styles.input_fields}
-          required
-        />
-        <input
-          type="text"
-          name="customer_suburb"
-          id="customer_suburb"
-          placeholder="Suburb"
-          className={styles.input_fields}
-          required
-        />
-        <textarea
-          name="customer_message"
-          id="customer_message"
-          placeholder="Message"
-          rows={10}
-          className={`${styles.input_fields} ${styles.text_area}`}
-          required
-        ></textarea>
+          <input
+            type="tel"
+            name="customer_phone"
+            id="customer_phone"
+            pattern="[0-9]*"
+            inputMode="numeric"
+            placeholder="Phone"
+            className={styles.input_fields}
+            required
+          />
+          <input
+            type="text"
+            name="customer_suburb"
+            id="customer_suburb"
+            placeholder="Suburb"
+            className={styles.input_fields}
+            required
+          />
+          <textarea
+            name="customer_message"
+            id="customer_message"
+            placeholder="Message"
+            rows={10}
+            className={`${styles.input_fields} ${styles.text_area}`}
+            required
+          ></textarea>
 
-        <button type="submit" className={styles.submit}>
-          {isLoading ? (
-            <ReactLoading
-              type={'bubbles'}
-              // color={'FFFFFF'}
-              height={40}
-              width={40}
-            />
-          ) : (
-            'Submit'
-          )}
-        </button>
-      </form>
-      <ToastContainer />
+          <button type="submit" className={styles.submit}>
+            {isLoading ? (
+              <ReactLoading
+                type={'bubbles'}
+                // color={'FFFFFF'}
+                height={40}
+                width={40}
+              />
+            ) : (
+              'Submit'
+            )}
+          </button>
+        </form>
+        <ToastContainer />
+      </div>
     </div>
   );
 }

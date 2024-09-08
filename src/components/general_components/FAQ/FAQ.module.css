@@ -22,6 +22,7 @@
 .faq_question_div_arrow {
   font-size: 3rem;
   color: var(--accent-colour);
+  margin-left: 2rem;
 }
 
 .faq_answer_div {

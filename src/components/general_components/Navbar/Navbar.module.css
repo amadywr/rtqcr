@@ -61,3 +61,18 @@
   color: var(--accent-colour);
   border-bottom: 3px solid var(--accent-colour);
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 6rem;
+  }
+
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  .navbar_menu {
+    display: none;
+  }
+}

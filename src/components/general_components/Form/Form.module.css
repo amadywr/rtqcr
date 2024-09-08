@@ -1,3 +1,8 @@
+.title {
+  font-size: 2.2rem !important;
+  margin-bottom: 2rem;
+}
+
 .right_div {
   width: 50rem;
   background-color: var(--secondary-dark-colour);
@@ -50,4 +55,25 @@
 .submit:hover {
   transform: scale(0.97);
   background-color: var(--accent-hover-colour);
+}
+
+@media screen and (max-width: 1000px) {
+  .right_div {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin-top: 4rem;
+  }
+
+  .right_div {
+    width: 100%;
+    order: -1;
+  }
+
+  .form_container {
+    order: -1;
+  }
 }

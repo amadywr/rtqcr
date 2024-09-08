@@ -1,26 +1,3 @@
-:global(.pagination-wrapper) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5rem;
-}
-
-:global(.slider-pagination) {
-  width: auto !important;
-}
-
-:global(.swiper-button-next)::after {
-  color: var(--accent-colour);
-}
-
-:global(.swiper-button-prev)::after {
-  color: var(--accent-colour);
-}
-
-:global(.swiper-pagination-bullet-active) {
-  background-color: var(--accent-colour) !important;
-}
-
 .reviews_section {
   margin-top: 20rem;
 }
