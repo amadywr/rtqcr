@@ -9,7 +9,7 @@ function Hero({ text, info, image }) {
       }}
     >
       <h1>{text}</h1>
-      <div className={`${styles.hero_text_div}`}>
+      <div className={`${styles.hero_text_div} mini-container`}>
         <p>{info}</p>
       </div>
     </div>

@@ -24,7 +24,7 @@ function Grid({
   }
 
   return (
-    <div className={`mini-container ${marginTop}`}>
+    <div className={` ${marginTop}`}>
       {wantHeader && (
         <Header headerText={headerText} headerTextRight={headerTextRight} />
       )}

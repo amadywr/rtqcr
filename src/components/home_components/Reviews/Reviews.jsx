@@ -10,6 +10,8 @@ import styles from './Reviews.module.css';
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 import Review from '../Review/Review';
 
+import googleReviews from '../../../assets/home/googleReviews';
+
 function Reviews() {
   const swiperRef = useRef(null);
 
@@ -23,9 +25,9 @@ function Reviews() {
         grabCursor={true}
         spaceBetween={10}
       >
-        {Array.from({ length: 5 }).map((_, index) => (
+        {googleReviews.map((review, index) => (
           <SwiperSlide key={index}>
-            <Review />
+            <Review review={review} />
           </SwiperSlide>
         ))}
 

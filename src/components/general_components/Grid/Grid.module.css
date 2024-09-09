@@ -26,3 +26,10 @@
   padding: 1rem 0;
   font-style: italic;
 }
+
+@media screen and (max-width: 680px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}

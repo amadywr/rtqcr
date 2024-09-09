@@ -135,6 +135,7 @@ function MultiGrid() {
           wantHeader={false}
           colours1={plain_epoxy_colour1}
           marginTop={'margin-top-small'}
+          style={{ padding: '0' }}
         />
       )}
 

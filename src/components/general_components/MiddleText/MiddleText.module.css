@@ -27,3 +27,9 @@
   background-color: var(--accent-hover-colour);
   transform: scale(0.97);
 }
+
+@media screen and (max-width: 680px) {
+  .text_div p {
+    width: 85%;
+  }
+}

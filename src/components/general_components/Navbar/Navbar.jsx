@@ -47,7 +47,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/epoxy_floor"
+            href="/epoxy_flooring"
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}
             onClick={toggleMenu}
           >

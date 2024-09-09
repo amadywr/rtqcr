@@ -19,3 +19,27 @@
 .title {
   margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 680px) {
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+  }
+
+  .id,
+  .title {
+    color: var(--accent-colour);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .id {
+    margin-right: 1rem;
+  }
+
+  .title {
+    margin-right: 0.5rem;
+  }
+}

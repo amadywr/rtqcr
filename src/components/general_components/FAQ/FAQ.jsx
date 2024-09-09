@@ -14,11 +14,13 @@ function FAQ({ faq }) {
         onClick={() => setIsOpen(!isOpen)}
       >
         <p>{faq.question}</p>
-        {isOpen ? (
-          <IoIosArrowUp className={styles.faq_question_div_arrow} />
-        ) : (
-          <IoIosArrowDown className={styles.faq_question_div_arrow} />
-        )}
+        <div>
+          {isOpen ? (
+            <IoIosArrowUp className={styles.faq_question_div_arrow} />
+          ) : (
+            <IoIosArrowDown className={styles.faq_question_div_arrow} />
+          )}
+        </div>
       </div>
       <div
         className={`${styles.faq_answer_div} ${

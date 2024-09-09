@@ -13,6 +13,8 @@
   border-radius: 1rem;
   padding: 2.4rem;
   gap: 2rem;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .card_header {
@@ -56,4 +58,8 @@
 
 .google_logo {
   width: 6rem;
+}
+
+.card:hover {
+  transform: scale(0.97);
 }

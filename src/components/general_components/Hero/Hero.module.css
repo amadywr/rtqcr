@@ -1,6 +1,5 @@
 .hero_wrapper {
-  /* background-image: url('../../../assets/spray_images/hero.jpg'); */
-  height: 50vh;
+  height: 50rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,22 +16,36 @@
 }
 
 .hero_text_div {
-  background-color: var(--accent-colour);
-  min-height: 14rem;
-  width: 80rem;
+  width: 100%;
   position: absolute;
-  bottom: -7rem;
-  left: 50%;
-  transform: translate(-50%, 0);
+  bottom: 0;
+  transform: translate(0, 50%);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 5rem;
-  border-radius: 1rem;
 }
 
 .hero_text_div p {
   color: #fff;
   font-size: 1.3rem;
   text-align: center;
+
+  background-color: var(--accent-colour);
+  border-radius: 1rem;
+  max-width: 80rem;
+  padding: 5rem 5rem;
+}
+
+@media screen and (max-width: 680px) {
+  .hero_wrapper {
+    height: 40rem;
+  }
+
+  .hero_wrapper h1 {
+    font-size: 5rem;
+  }
+
+  .hero_text_div p {
+    padding: 3rem 3rem;
+  }
 }

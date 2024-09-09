@@ -38,21 +38,25 @@ function SprayCreteFloor() {
         headerTextRight={true}
       />
 
-      <Grid
-        headerText={'Choose your colours'}
-        headerTextRight={false}
-        gridList1={colours1}
-        gridList2={colours2}
-        btnText={'colours'}
-      />
+      <div className="mini-container">
+        <Grid
+          headerText={'Choose your colours'}
+          headerTextRight={false}
+          gridList1={colours1}
+          gridList2={colours2}
+          btnText={'colours'}
+        />
+      </div>
 
-      <Grid
-        headerText={'Choose your stencils'}
-        headerTextRight={true}
-        gridList1={stencils1}
-        gridList2={stencils2}
-        btnText={'stencils'}
-      />
+      <div className="mini-container">
+        <Grid
+          headerText={'Choose your stencils'}
+          headerTextRight={true}
+          gridList1={stencils1}
+          gridList2={stencils2}
+          btnText={'stencils'}
+        />
+      </div>
 
       <Gallery
         headerText={'Gallery'}

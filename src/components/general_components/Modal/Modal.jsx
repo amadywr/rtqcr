@@ -8,14 +8,17 @@ function Modal({
   caption = 'default caption',
 }) {
   return (
-    <div className={`${styles.modal_div}`}>
-      <img src={modalImageSource} alt="modal" />
-      <p className={styles.caption}>{caption}</p>
+    <div className={`${styles.modal_div}`} onClick={() => setModalOpen(false)}>
+      <div className={styles.imageContainer}>
+        <img src={modalImageSource} alt="modal" />
 
-      <IoMdClose
-        onClick={() => setModalOpen(false)}
-        className={styles.modal_close_btn}
-      />
+        <IoMdClose
+          onClick={() => setModalOpen(false)}
+          className={styles.modal_close_btn}
+        />
+      </div>
+
+      <p className={styles.caption}>{caption}</p>
     </div>
   );
 }
