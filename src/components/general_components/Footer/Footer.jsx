@@ -24,7 +24,7 @@ function Footer() {
                 rel="noreferrer"
               >
                 <MdEmail className={styles.footer_icon} />
-                <p>Info@rtqcr.com.au</p>
+                <p>info@rtqcr.com.au</p>
               </a>
               <a href="tel:0470175621" className={styles.div_item}>
                 <FaPhoneAlt className={styles.footer_icon} />
