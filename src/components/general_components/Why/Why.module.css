@@ -20,6 +20,10 @@
   margin-right: 0.5rem;
 }
 
+.item {
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 680px) {
   .grid {
     width: 100%;

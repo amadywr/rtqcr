@@ -25,6 +25,7 @@
 .item p {
   padding: 1rem 0;
   font-style: italic;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 680px) {

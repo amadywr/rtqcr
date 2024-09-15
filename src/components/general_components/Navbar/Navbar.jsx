@@ -38,6 +38,8 @@ function Navbar() {
             {dropdown && <Dropdown />}
           </div>
 
+          {/* mobile nav items */}
+
           <a
             href="/spray-crete-floor"
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}

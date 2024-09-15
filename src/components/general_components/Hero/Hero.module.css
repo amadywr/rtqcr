@@ -27,13 +27,13 @@
 
 .hero_text_div p {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   text-align: center;
 
   background-color: var(--accent-colour);
   border-radius: 1rem;
   max-width: 80rem;
-  padding: 5rem 5rem;
+  padding: 4rem 5rem;
 }
 
 @media screen and (max-width: 680px) {
