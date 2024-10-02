@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ComingSoon.module.css';
-import logo from '../../assets/original_logo.png';
+import logo from '../../assets/logo.webp';
 
 function ComingSoon() {
   return (

@@ -1,23 +1,27 @@
-import flagstone from './flagstone.png';
-import english_cobble from './english_cobble.png';
-import regal_tile from './regal_tile.png';
-import keystone from './keystone.png';
-import random_bluestone from './random_bluestone.png';
-import cobblestone from './cobblestone.png';
-import antique_tile from './antique_tile.png';
-import large_tile from './large_tile.png';
-import keystone_header from './keystone_header.png';
-import brick_header from './brick_header.png';
-import cobble_header from './cobble_header.png';
-import large_tile_header from './large_tile_header.png';
-// import edge_brick_header from './edge_brick_header.png';
-import star_compass from './star_compass.png';
-import rosette from './rosette.png';
+import flagstone from './flagstone.webp';
+import english_cobble from './english_cobble.webp';
+import regal_tile from './regal_tile.webp';
+import keystone from './keystone.webp';
+import random_bluestone from './random_bluestone.webp';
+import cobblestone from './cobblestone.webp';
+import antique_tile from './antique_tile.webp';
+import large_tile from './large_tile.webp';
+import keystone_header from './keystone_header.webp';
+import brick_header from './brick_header.webp';
+import cobble_header from './cobble_header.webp';
+import large_tile_header from './large_tile_header.webp';
+import edge_brick_header from './edge_brick_header.webp';
+import star_compass from './star_compass.webp';
+import rosette from './rosette.webp';
 
 const stencils2 = [
   {
     source: flagstone,
     name: 'Flagstone',
+  },
+  {
+    source: edge_brick_header,
+    name: 'Edge Brick Header',
   },
   {
     source: english_cobble,

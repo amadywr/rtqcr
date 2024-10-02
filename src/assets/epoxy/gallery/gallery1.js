@@ -1,12 +1,12 @@
-import img1 from './epoxy_1.jpg';
-import img2 from './epoxy_2.jpg';
-import img3 from './epoxy_3.jpg';
-import img4 from './epoxy_4.jpg';
-import img5 from './epoxy_5.jpg';
-import img6 from './epoxy_6.jpg';
-import img7 from './epoxy_7.jpg';
-import img8 from './epoxy_8.jpg';
-import img9 from './epoxy_9.jpg';
+import img1 from './epoxy_1.webp';
+import img2 from './epoxy_2.webp';
+import img3 from './epoxy_3.webp';
+import img4 from './epoxy_4.webp';
+import img5 from './epoxy_5.webp';
+import img6 from './epoxy_6.webp';
+import img7 from './epoxy_7.webp';
+import img8 from './epoxy_8.webp';
+import img9 from './epoxy_9.webp';
 
 const gallery1 = [
   { id: 1, source: img1 },

@@ -2,7 +2,7 @@ import styles from './Review.module.css';
 
 import { RiStarSFill } from 'react-icons/ri';
 
-import googleLogoImg from '../../../assets/home/google_logo.png';
+import googleLogoImg from '../../../assets/home/google_logo.webp';
 
 function Review({ review }) {
   return (

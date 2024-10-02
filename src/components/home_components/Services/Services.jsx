@@ -1,8 +1,8 @@
 import React from 'react';
-import sealing_hero from '../../../assets/sealing/hero.png';
-import spray_crete_hero from '../../../assets/spray/hero.jpg';
-import epoxy_hero from '../../../assets/epoxy/hero.jpg';
-import polishing_hero from '../../../assets/polishing/hero.jpg';
+import sealing_hero from '../../../assets/sealing/hero.webp';
+import spray_crete_hero from '../../../assets/spray/hero.webp';
+import epoxy_hero from '../../../assets/epoxy/hero.webp';
+import polishing_hero from '../../../assets/polishing/hero.webp';
 
 import styles from './Services.module.css';
 

@@ -1,12 +1,12 @@
-import img1 from './spray_1.jpg';
-import img2 from './spray_2.jpg';
-import img3 from './spray_3.jpg';
-import img4 from './spray_4.jpg';
-import img5 from './spray_5.jpg';
-import img6 from './spray_6.jpg';
-import img7 from './spray_7.jpg';
-import img8 from './spray_8.jpg';
-import img9 from './spray_9.jpg';
+import img1 from './spray_1.webp';
+import img2 from './spray_2.webp';
+import img3 from './spray_3.webp';
+import img4 from './spray_4.webp';
+import img5 from './spray_5.webp';
+import img6 from './spray_6.webp';
+import img7 from './spray_7.webp';
+import img8 from './spray_8.webp';
+import img9 from './spray_9.webp';
 
 const gallery1 = [
   { id: 1, source: img1 },

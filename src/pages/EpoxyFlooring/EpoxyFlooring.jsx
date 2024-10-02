@@ -1,6 +1,6 @@
 import epoxyFAQs from '../../assets/epoxy/epoxyFAQs';
 import Hero from '../../components/general_components/Hero/Hero';
-import heroImg from '../../assets/epoxy/hero.jpg';
+import heroImg from '../../assets/epoxy/hero.webp';
 import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/epoxy/Why';
 import Info from '../../components/general_components/Info/Info';

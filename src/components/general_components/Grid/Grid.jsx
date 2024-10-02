@@ -12,7 +12,7 @@ function Grid({
   btnText = 'grid items',
   marginTop = 'margin-top-medium',
 }) {
-  // const [viewMore, setViewMore] = useState(false);
+  const [viewMore, setViewMore] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImageSource, setModalImageSource] = useState('');
   const [caption, setCaption] = useState('');
@@ -36,13 +36,14 @@ function Grid({
               src={gridList1[i].source}
               alt={gridList1[i].name}
               onClick={() => getImage(gridList1[i])}
+              loading="lazy"
             />
             <p>{gridList1[i].name}</p>
           </div>
         ))}
       </div>
 
-      {/* {gridList2 ? (
+      {gridList2 ? (
         <div
           className={`${styles.grid} ${viewMore ? '' : 'hidden'}`}
           style={{ marginTop: '3rem' }}
@@ -53,6 +54,7 @@ function Grid({
                 src={gridList2[i].source}
                 alt={gridList2[i].name}
                 onClick={() => getImage(gridList2[i])}
+                loading="lazy"
               />
               <p>{gridList2[i].name}</p>
             </div>
@@ -60,9 +62,9 @@ function Grid({
         </div>
       ) : (
         ''
-      )} */}
+      )}
 
-      {/* {gridList2 ? (
+      {gridList2 ? (
         <div className="button_div">
           <button className="button" onClick={() => setViewMore(!viewMore)}>
             {viewMore ? `View less ${btnText}` : `View more ${btnText}`}
@@ -70,7 +72,7 @@ function Grid({
         </div>
       ) : (
         ''
-      )} */}
+      )}
 
       {modalOpen && (
         <Modal

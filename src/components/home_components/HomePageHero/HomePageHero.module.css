@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0)
     ),
-    url('../../../assets/home/hero.jpg');
+    url('../../../assets/home/hero.webp');
   height: 65vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,15 +55,6 @@
   }
 
   .hero_wrapper {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0)
-      ),
-      url('../../../assets/home/hero.jpg');
     height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }

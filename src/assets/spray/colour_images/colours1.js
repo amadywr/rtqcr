@@ -1,15 +1,15 @@
-import bluegum from './bluegum.png';
-import silver_sands from './silver_sands.png';
-import slate_grey from './slate_grey.png';
-import french_grey from './french_grey.png';
-import granite from './granite.png';
-import bluestone from './bluestone.png';
-import gunmetal from './gunmetal.png';
-import charcoal from './charcoal.png';
-import jet_black from './jet_black.png';
-import chocolate from './chocolate.png';
-import brick_red from './brick_red.png';
-import dark_terracotta from './dark_terracotta.png';
+import bluegum from './bluegum.webp';
+import silver_sands from './silver_sands.webp';
+import slate_grey from './slate_grey.webp';
+import french_grey from './french_grey.webp';
+import granite from './granite.webp';
+import bluestone from './bluestone.webp';
+import gunmetal from './gunmetal.webp';
+import charcoal from './charcoal.webp';
+import jet_black from './jet_black.webp';
+import chocolate from './chocolate.webp';
+import brick_red from './brick_red.webp';
+import dark_terracotta from './dark_terracotta.webp';
 
 const colours1 = [
   {

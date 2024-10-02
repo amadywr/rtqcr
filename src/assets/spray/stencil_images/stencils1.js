@@ -1,15 +1,15 @@
-import block from './block.png';
-import rustic_brick from './rustic_brick.png';
-import mediterranean from './mediterranean.png';
-import convict_brick from './convict_brick.png';
-import brick from './brick.png';
-import bushrock from './bushrock.png';
-import classic_herringbone from './classic_herringbone.png';
-import diamond_tile from './diamond_tile.png';
-import european_fan from './european_fan.png';
-import basket_weave from './basket_weave.png';
-import quarry_tile from './quarry_tile.png';
-import ashlar_slate from './ashlar_slate.png';
+import block from './block.webp';
+import rustic_brick from './rustic_brick.webp';
+import mediterranean from './mediterranean.webp';
+import convict_brick from './convict_brick.webp';
+import brick from './brick.webp';
+import bushrock from './bushrock.webp';
+import classic_herringbone from './classic_herringbone.webp';
+import diamond_tile from './diamond_tile.webp';
+import european_fan from './european_fan.webp';
+import basket_weave from './basket_weave.webp';
+import quarry_tile from './quarry_tile.webp';
+import ashlar_slate from './ashlar_slate.webp';
 
 const stencils1 = [
   {

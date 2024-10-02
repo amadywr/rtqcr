@@ -1,23 +1,23 @@
-import img1 from './epoxy_1.jpg';
-import img2 from './epoxy_2.jpg';
-import img3 from './epoxy_3.jpg';
-import img4 from './epoxy_4.jpg';
-import img5 from './epoxy_5.jpg';
-import img6 from './epoxy_6.jpg';
-import img7 from './epoxy_7.jpg';
-import img8 from './epoxy_8.jpg';
-import img9 from './epoxy_9.jpg';
+import img10 from './epoxy_10.webp';
+import img11 from './epoxy_11.webp';
+import img12 from './epoxy_12.webp';
+import img13 from './epoxy_13.webp';
+import img14 from './epoxy_14.webp';
+import img15 from './epoxy_15.webp';
+import img16 from './epoxy_16.webp';
+import img17 from './epoxy_17.webp';
+import img18 from './epoxy_18.webp';
 
 const gallery2 = [
-  { id: 1, source: img1 },
-  { id: 2, source: img2 },
-  { id: 3, source: img3 },
-  { id: 4, source: img4 },
-  { id: 5, source: img5 },
-  { id: 6, source: img6 },
-  { id: 7, source: img7 },
-  { id: 8, source: img8 },
-  { id: 9, source: img9 },
+  { id: 1, source: img10 },
+  { id: 2, source: img11 },
+  { id: 3, source: img12 },
+  { id: 4, source: img13 },
+  { id: 5, source: img14 },
+  { id: 6, source: img15 },
+  { id: 7, source: img16 },
+  { id: 8, source: img17 },
+  { id: 9, source: img18 },
 ];
 
 export default gallery2;

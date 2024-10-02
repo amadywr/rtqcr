@@ -2,7 +2,7 @@ import MiddleText from '../../components/general_components/MiddleText/MiddleTex
 import FAQs from '../../components/general_components/FAQs/FAQs';
 import sprayFAQs from '../../assets/spray/sprayFAQs';
 import Hero from '../../components/general_components/Hero/Hero';
-import heroImg from '../../assets/spray/hero.jpg';
+import heroImg from '../../assets/spray/hero.webp';
 import Why from '../../components/general_components/Why/Why';
 import whyList from '../../assets/spray/why';
 import Info from '../../components/general_components/Info/Info';
@@ -21,7 +21,7 @@ function SprayCreteFloor() {
       <Hero
         text={'Spray-Crete Floor'}
         info={
-          'Welcome to RTQCR, where we redefine the possibilities of concrete surfaces. Our concrete resurfacing solutions breathe new life into worn-out, dull surfaces, transforming them into stunning, durable spaces'
+          'Welcome to RTQ Concrete Resurfacing, where we redefine the possibilities of concrete surfaces. Our concrete resurfacing solutions breathe new life into worn-out, dull surfaces, transforming them into stunning, durable spaces'
         }
         image={heroImg}
       />

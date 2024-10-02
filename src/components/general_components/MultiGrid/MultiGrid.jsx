@@ -2,10 +2,7 @@ import { useState } from 'react';
 import styles from './MultiGrid.module.css';
 import Header from '../Header/Header';
 import Grid from '../Grid/Grid';
-import {
-  ultra_flake_styles1,
-  ultra_flake_styles2,
-} from '../../../assets/epoxy/styles/ultra_flake/ultra_flake_styles';
+import { ultra_flake_styles1 } from '../../../assets/epoxy/styles/ultra_flake/ultra_flake_styles';
 import { hyper_flake_styles1 } from '../../../assets/epoxy/styles/hyper_flake/hyper_flake_styles';
 import { grip_finish_style1 } from '../../../assets/epoxy/styles/grip_finish/grip_finish_style';
 import { quartz_shield_style1 } from '../../../assets/epoxy/styles/quartz_shield/quartz_shield_style';
@@ -100,7 +97,6 @@ function MultiGrid() {
         <Grid
           wantHeader={false}
           gridList1={ultra_flake_styles1}
-          gridList2={ultra_flake_styles2}
           btnText={'ultra flakes'}
           marginTop={'margin-top-small'}
         />

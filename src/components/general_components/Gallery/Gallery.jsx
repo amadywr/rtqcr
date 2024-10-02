@@ -26,6 +26,7 @@ function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
             src={image.source}
             alt="gallery"
             onClick={() => getImage(image)}
+            loading="lazy"
           />
         ))}
       </div>
@@ -40,6 +41,7 @@ function Gallery({ headerText, headerTextRight, gallery1, gallery2, btnText }) {
             src={image.source}
             alt="gallery"
             onClick={() => getImage(image)}
+            loading="lazy"
           />
         ))}
       </div>
