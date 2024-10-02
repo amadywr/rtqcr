@@ -26,7 +26,7 @@ function Footer() {
                 <MdEmail className={styles.footer_icon} />
                 <p>info@rtqcr.com.au</p>
               </a>
-              <a href="tel:0470175621" className={styles.div_item}>
+              <a href="tel:0473098092" className={styles.div_item}>
                 <FaPhoneAlt className={styles.footer_icon} />
                 <p>0473 098 092</p>
               </a>
