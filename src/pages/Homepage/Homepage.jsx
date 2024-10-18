@@ -7,7 +7,6 @@ import FAQs from '../../components/general_components/FAQs/FAQs';
 import homepageFAQs from '../../assets/home/homepageFAQs';
 import HomepageHero from '../../components/home_components/HomePageHero/HomePageHero';
 import Reviews from '../../components/home_components/Reviews/Reviews';
-// import RecentProjects2 from '../../components/home_components/RecentProjects2/RecentProjects2';
 
 function Homepage() {
   return (
