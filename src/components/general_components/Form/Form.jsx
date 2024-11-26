@@ -61,7 +61,7 @@ function Form() {
 
   return (
     <div className={styles.form_container}>
-      <h1 className={styles.title}>Enquiry</h1>
+      <h3 className={styles.title}>Enquiry</h3>
       <div className={styles.right_div}>
         <form action="" ref={form} onSubmit={sendEmail}>
           <input

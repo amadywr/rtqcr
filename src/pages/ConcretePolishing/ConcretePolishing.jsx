@@ -6,10 +6,19 @@ import whyList from '../../assets/polishing/why';
 import MiddleText from '../../components/general_components/MiddleText/MiddleText';
 import FAQs from '../../components/general_components/FAQs/FAQs';
 import polishingFAQs from '../../assets/polishing/polishingFAQs';
+import { Helmet } from 'react-helmet-async';
 
 function ConcretePolishing() {
   return (
     <div>
+      <Helmet>
+        <title>Concrete Polishing | RTQ Concrete Resurfacing</title>
+        <link rel="canonical" href="https://rtqcr.com.au/concrete-polishing" />
+        <meta
+          name="description"
+          content="Discover RTQ Concrete Resurfacing's Concrete Polishing solutions. Enhance the beauty and durability of your floors with our professional concrete polishing services."
+        />
+      </Helmet>
       <Hero
         text={'Concrete Polishing'}
         info={

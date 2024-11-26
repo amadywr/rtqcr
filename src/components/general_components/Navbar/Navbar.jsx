@@ -45,7 +45,7 @@ function Navbar() {
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}
             onClick={toggleMenu}
           >
-            Spray-Crete Flooring
+            Spray-Crete
           </a>
 
           <a

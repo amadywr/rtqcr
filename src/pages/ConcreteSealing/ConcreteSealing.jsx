@@ -9,10 +9,19 @@ import colours2 from '../../assets/sealing/colours2';
 import MiddleText from '../../components/general_components/MiddleText/MiddleText';
 import FAQs from '../../components/general_components/FAQs/FAQs';
 import sealingFAQs from '../../assets/sealing/sealingFAQs';
+import { Helmet } from 'react-helmet-async';
 
 function ConcreteSealing() {
   return (
     <div>
+      <Helmet>
+        <title>Concrete Sealing | RTQ Concrete Resurfacing</title>
+        <link rel="canonical" href="https://rtqcr.com.au/concrete-sealing" />
+        <meta
+          name="description"
+          content="Discover RTQ Concrete Resurfacing's Spray-Crete solutions. Transform worn-out concrete surfaces into stunning, durable spaces with our expert resurfacing services."
+        />
+      </Helmet>
       <Hero
         text={'Concrete Sealing'}
         info={

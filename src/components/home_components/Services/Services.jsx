@@ -15,22 +15,28 @@ function Services() {
       <h1>Our services</h1>
 
       <div className={`${styles.services_div}`}>
-        <a href="/spray-crete-floor" className={`${styles.services_item}`}>
-          <img src={spray_crete_hero} alt="spray crete floor" />
+        <a href="/spray-crete" className={`${styles.services_item}`}>
+          <img
+            src={spray_crete_hero}
+            alt="Spray-Crete by RTQ Concrete Resurfacing"
+          />
 
           <div>
-            <h2>Spray-Crete Floor</h2>
+            <h2>Spray-Crete</h2>
             <p>
-              Spray-Crete Floors is the perfect solution for worn, tired and
-              cracked concrete driveways and pathways. This process seals the
-              concrete surface, giving it a brand new look whilst also
-              protecting it in the future
+              Spray-Crete is the perfect solution for worn, tired and cracked
+              concrete driveways and pathways. This process seals the concrete
+              surface, giving it a brand new look whilst also protecting it in
+              the future
             </p>
           </div>
         </a>
 
-        <a href="epoxy_flooring" className={`${styles.services_item}`}>
-          <img src={epoxy_hero} alt="epoxy flooring" />
+        <a href="epoxy-flooring" className={`${styles.services_item}`}>
+          <img
+            src={epoxy_hero}
+            alt="Epoxy Flooring by RTQ Concrete Resurfacing"
+          />
 
           <div>
             <h2>Epoxy Flooring</h2>
@@ -44,11 +50,14 @@ function Services() {
           </div>
         </a>
 
-        <a href="/concrete_sealing" className={`${styles.services_item}`}>
-          <img src={sealing_hero} alt="concrete sealing" />
+        <a href="/concrete-sealing" className={`${styles.services_item}`}>
+          <img
+            src={sealing_hero}
+            alt="Concrete Sealing by RTQ Concrete Resurfacing"
+          />
 
           <div>
-            <h2>Concrete sealing</h2>
+            <h2>Concrete Sealing</h2>
             <p>
               Concrete sealing enhances durability, appearance, and resistance
               to stains, UV rays, and cracking. It simplifies maintenance,
@@ -59,8 +68,11 @@ function Services() {
           </div>
         </a>
 
-        <a href="concrete_polishing" className={`${styles.services_item}`}>
-          <img src={polishing_hero} alt="concrete polishing" />
+        <a href="concrete-polishing" className={`${styles.services_item}`}>
+          <img
+            src={polishing_hero}
+            alt="Concrete Polishing by RTQ Concrete Resurfacing"
+          />
 
           <div>
             <h2>Concrete Polishing</h2>
