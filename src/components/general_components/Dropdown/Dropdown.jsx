@@ -10,16 +10,16 @@ function Dropdown() {
       className={`${styles.container} ${isClicked && styles.hide}`}
       onClick={() => setIsClicked(!isClicked)}
     >
-      <a href="/spray-crete-floor" className={styles.dropdown_item}>
+      <a href="/spray-crete" className={styles.dropdown_item}>
         Spray-Crete
       </a>
-      <a href="/epoxy_flooring" className={styles.dropdown_item}>
+      <a href="/epoxy-flooring" className={styles.dropdown_item}>
         Epoxy Flooring
       </a>
-      <a href="/concrete_sealing" className={styles.dropdown_item}>
+      <a href="/concrete-sealing" className={styles.dropdown_item}>
         Concrete Sealing
       </a>
-      <a href="/concrete_polishing" className={styles.dropdown_item}>
+      <a href="/concrete-polishing" className={styles.dropdown_item}>
         Concrete Polishing
       </a>
     </div>

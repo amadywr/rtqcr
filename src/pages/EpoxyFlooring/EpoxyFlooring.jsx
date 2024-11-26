@@ -10,10 +10,19 @@ import Gallery from '../../components/general_components/Gallery/Gallery';
 import MiddleText from '../../components/general_components/MiddleText/MiddleText';
 import FAQs from '../../components/general_components/FAQs/FAQs';
 import MultiGrid from '../../components/general_components/MultiGrid/MultiGrid';
+import { Helmet } from 'react-helmet-async';
 
 function EpoxyFlooring() {
   return (
     <div>
+      <Helmet>
+        <title>Epoxy Flooring | RTQ Concrete Resurfacing</title>
+        <link rel="canonical" href="https://rtqcr.com.au/epoxy-flooring" />
+        <meta
+          name="description"
+          content="Explore RTQ Concrete Resurfacing's Epoxy Flooring solutions. Enhance your spaces with durable, stylish, and high-performance epoxy flooring designed to last."
+        />
+      </Helmet>
       <Hero
         text={'Epoxy Flooring'}
         info={

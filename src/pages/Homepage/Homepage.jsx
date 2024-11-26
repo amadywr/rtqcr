@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Homepage.module.css';
 import Services from '../../components/home_components/Services/Services';
 import ServeArea from '../../components/home_components/ServeArea/ServeArea';
 import RecentProjects from '../../components/home_components/RecentProjects/RecentProjects';
@@ -10,7 +9,7 @@ import Reviews from '../../components/home_components/Reviews/Reviews';
 
 function Homepage() {
   return (
-    <div className={styles.home}>
+    <div>
       <HomepageHero />
       <Services />
       <ServeArea />

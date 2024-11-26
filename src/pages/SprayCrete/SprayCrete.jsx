@@ -14,12 +14,21 @@ import stencils2 from '../../assets/spray/stencil_images/stencils2';
 import Gallery from '../../components/general_components/Gallery/Gallery';
 import gallery1 from '../../assets/spray/gallery/gallery1';
 import gallery2 from '../../assets/spray/gallery/gallery2';
+import { Helmet } from 'react-helmet-async';
 
 function SprayCreteFloor() {
   return (
     <div>
+      <Helmet>
+        <title>Spray-Crete | RTQ Concrete Resurfacing</title>
+        <link rel="canonical" href="https://rtqcr.com.au/spray-crete" />
+        <meta
+          name="description"
+          content="Discover RTQ Concrete Resurfacing's Spray-Crete solutions. Transform worn-out concrete surfaces into stunning, durable spaces with our expert resurfacing services."
+        />
+      </Helmet>
       <Hero
-        text={'Spray-Crete Floor'}
+        text={'Spray-Crete'}
         info={
           'Welcome to RTQ Concrete Resurfacing, where we redefine the possibilities of concrete surfaces. Our concrete resurfacing solutions breathe new life into worn-out, dull surfaces, transforming them into stunning, durable spaces'
         }
@@ -27,7 +36,7 @@ function SprayCreteFloor() {
       />
 
       <Why
-        headerText={'Why choose spray-crete floor, you ask?'}
+        headerText={'Why choose spray-crete, you ask?'}
         headerTextRight={false}
         why={whyList}
       />
