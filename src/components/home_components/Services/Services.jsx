@@ -19,12 +19,12 @@ function Services() {
           <img src={spray_crete_hero} alt="spray crete floor" />
 
           <div>
-            <h2>Spray-Crete Floor</h2>
+            <h2>Spray-Crete</h2>
             <p>
-              Spray-Crete Floors is the perfect solution for worn, tired and
-              cracked concrete driveways and pathways. This process seals the
-              concrete surface, giving it a brand new look whilst also
-              protecting it in the future
+              Spray-Crete is the perfect solution for worn, tired and cracked
+              concrete driveways and pathways. This process seals the concrete
+              surface, giving it a brand new look whilst also protecting it in
+              the future
             </p>
           </div>
         </a>
@@ -48,7 +48,7 @@ function Services() {
           <img src={sealing_hero} alt="concrete sealing" />
 
           <div>
-            <h2>Concrete sealing</h2>
+            <h2>Concrete Sealing</h2>
             <p>
               Concrete sealing enhances durability, appearance, and resistance
               to stains, UV rays, and cracking. It simplifies maintenance,
