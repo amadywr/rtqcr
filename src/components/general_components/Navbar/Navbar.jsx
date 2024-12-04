@@ -41,7 +41,7 @@ function Navbar() {
           {/* mobile nav items */}
 
           <a
-            href="/spray-crete-floor"
+            href="/spray-crete"
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}
             onClick={toggleMenu}
           >
@@ -49,7 +49,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/epoxy_flooring"
+            href="/epoxy-flooring"
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}
             onClick={toggleMenu}
           >
@@ -57,7 +57,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/concrete_sealing"
+            href="/concrete-sealing"
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}
             onClick={toggleMenu}
           >
@@ -65,7 +65,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/concrete_polishing"
+            href="/concrete-polishing"
             className={`${styles.navbar_menu_item} ${styles.hamburger_services_item}`}
             onClick={toggleMenu}
           >
