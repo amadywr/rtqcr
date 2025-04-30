@@ -1,35 +1,40 @@
-import { useRef, useState } from 'react';
-import styles from './Form.module.css';
-import emailjs from '@emailjs/browser';
-import { ToastContainer, toast, Bounce } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import ReactLoading from 'react-loading';
+import { useRef, useState } from 'react'
+import styles from './Form.module.css'
+import emailjs from '@emailjs/browser'
+import { ToastContainer, toast, Bounce } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import ReactLoading from 'react-loading'
 
 function Form() {
-  const form = useRef();
-  const [isLoading, setIsLoading] = useState(false);
+  const form = useRef()
+  const [isLoading, setIsLoading] = useState(false)
 
   const sendEmail = (e) => {
-    e.preventDefault();
-    setIsLoading(true);
+    e.preventDefault()
+    setIsLoading(true)
 
     emailjs
-      .sendForm('service_1w33hna', 'template_sjry4w2', form.current, {
-        publicKey: 'DrxK_kaXTmI-rjT2Z',
-      })
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
-          e.target.reset();
-          succcessNotify();
-          setIsLoading(false);
+          e.target.reset()
+          succcessNotify()
+          setIsLoading(false)
         },
         (error) => {
-          errorNotify();
-          console.log('FAILED...', error.text);
-          setIsLoading(false);
+          errorNotify()
+          console.log('FAILED...', error.text)
+          setIsLoading(false)
         }
-      );
-  };
+      )
+  }
 
   const succcessNotify = () =>
     toast.success('Email sent successfully', {
@@ -43,7 +48,7 @@ function Form() {
       theme: 'light',
       transition: Bounce,
       style: { fontSize: '14px' },
-    });
+    })
 
   const errorNotify = () =>
     toast.error('Something went wrong, try again', {
@@ -57,7 +62,7 @@ function Form() {
       theme: 'light',
       transition: Bounce,
       style: { fontSize: '14px' },
-    });
+    })
 
   return (
     <div className={styles.form_container}>
@@ -123,7 +128,7 @@ function Form() {
         <ToastContainer />
       </div>
     </div>
-  );
+  )
 }
 
-export default Form;
+export default Form
