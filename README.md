@@ -1,6 +1,6 @@
 # RTQ Concrete Resurfacing
 
-RTQ Concrete Resurfacing is a small business based in Sydney that specializes in transforming concrete surfaces through services such as Spray-Crete, Epoxy Flooring, Concrete Sealing, and Concrete Polishing. This repository contains the source code for the official website of RTQ Concrete Resurfacing, developed as a client project.
+Developed a responsive website for a Sydney-based small business using React, JavaScript, and vanilla CSS, ensuring an engaging and user friendly experience. Implemented key features such as FAQs, contact form, gallery, and embedded Google Reviews to enhance user engagement and credibility. Optimised the website for SEO and performance.
 
 The website is live at [rtqcr.com.au](https://rtqcr.com.au).
 
